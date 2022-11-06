@@ -37,9 +37,7 @@
 
 .home-cta {
     margin-top: 50px;
-    border: 1px solid var(--accent);
     padding: 10px 50px;
-    color: var(--accent);
     font-size: 18px;
     background-color: transparent;
     font-family: 'Playfair Display', serif;
@@ -47,11 +45,57 @@
     transition: all 400ms ease-in-out;
 }
 
+.primary-cta {
+    border: 1px solid var(--accent);
+    color: var(--accent);
+}
+
+.secondary-cta {
+    color: var(--main);
+}
+
 .home-cta:nth-child(1) {
     margin-right: 40px;
 }
 
-.home-cta:hover {
+.primary-cta:hover {
     background-color: var(--accent);
     color: var(--secondary);
 }
+
+.secondary-cta:hover {
+    background-color: var(--light-grey);
+}
+
+/* Animation */
+.anim-typewriter-fr {
+    animation: typewriter-fr 3s steps(36),
+               blinkTextCursor 500ms steps(36) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid var(--light-grey);
+    width: fit-content;
+  }
+
+  .anim-typewriter-en {
+    animation: typewriter-en 2500ms steps(36),
+               blinkTextCursor 500ms steps(36) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid var(--light-grey);
+    width: fit-content;
+  }
+  @keyframes typewriter-fr{
+    from{width: 0;}
+    to{width: 650px;}
+  }
+
+  @keyframes typewriter-en{
+    from{width: 0;}
+    to{width: 419px;}
+  }
+
+  @keyframes blinkTextCursor{
+    from{border-right-color: var(--light-grey);}
+    to{border-right-color: transparent;}
+  }

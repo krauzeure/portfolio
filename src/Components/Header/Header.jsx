@@ -37,6 +37,9 @@ export function Header() {
                     <Link to="/resume">
                         <li className="nav-item fr">{langValue.lang ? frenchCopy.header.resume : englishCopy.header.resume}</li>
                     </Link>
+                    <Link to="/projects">
+                        <li className="nav-item fr">{langValue.lang ? frenchCopy.header.projects : englishCopy.header.projects}</li>
+                    </Link>
                 </ul>
             </div>
             <div className="nav-selectors">
