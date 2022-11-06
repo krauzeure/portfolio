@@ -16,6 +16,10 @@
     font-size: 30px;
 }
 
+.main-description-hello {
+    filter: grayscale(100%) brightness(0.6);
+}
+
 .main-about {
     margin: 40px auto;
     display: flex;
@@ -23,7 +27,15 @@
     align-items: flex-start;
 }
 
-.resume-cta {
+.main-content {
+    margin: 40px 0;
+}
+
+.home-buttons {
+    display: flex;
+}
+
+.home-cta {
     margin-top: 50px;
     border: 1px solid var(--accent);
     padding: 10px 50px;
@@ -35,7 +47,11 @@
     transition: all 400ms ease-in-out;
 }
 
-.resume-cta:hover {
+.home-cta:nth-child(1) {
+    margin-right: 40px;
+}
+
+.home-cta:hover {
     background-color: var(--accent);
     color: var(--secondary);
 }
