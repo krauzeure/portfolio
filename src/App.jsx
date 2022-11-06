@@ -8,6 +8,7 @@ import { AppRoutes } from './Routes'
 import { Header } from './Components/Header/Header';
 import ThemeContext from './ThemeContext';
 import LangContext from './LangContext';
+import { SocialMedia } from './Components/SocialMedia/SocialMedia';
 
 export function App() {
 
@@ -30,6 +31,7 @@ export function App() {
         <ThemeContext.Provider value={contextValue}>
         <LangContext.Provider value={langValue}>
             <Header />
+            <SocialMedia />
             <AppRoutes />
         </LangContext.Provider>
         </ThemeContext.Provider>
