@@ -27,7 +27,7 @@ export function Header() {
 
   return (
     <header>
-        <nav>
+        <nav className="header-nav-container">
             <div className="nav-links">
             <Link to="/"><img src={Cyrielle} alt="cyrielle" className="profile-photo"/></Link>
             <ul>

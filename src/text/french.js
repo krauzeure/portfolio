@@ -22,6 +22,10 @@ export const frenchCopy = {
         "jobtitle1": "Knowledge Management Specialist @OpenClassrooms",
         "job1item1": "Gestion de la connaissance pour toute l'équipe Opérations",
         "job1item2": "Définition des guidelines et maintenance des Centre d'Aide",
-        "job1item3": "Suivi des indicateurs (qualité, impact, ...)"
+        "job1item3": "Suivi des indicateurs (qualité, impact, ...)",
+        "jobtitle2": "Mentor & Coach Support Manager",
+        "job2item1": "Mise en place des process du Support mentorat et coaching",
+        "job2item2": "Rédaction des consignes pour le contenu de notre centre d'aide",
+        "job2item3": "Aide à la mise en place des centres d’aide (étudiants, mentor, employeur)"
     }
 }

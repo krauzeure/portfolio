@@ -57,7 +57,7 @@ img.profile-photo {
     align-items: center;
   }
   
-  nav ul {
+  nav.header-nav-container ul {
     list-style-type: none;
     display: flex;
     margin-right: 10px;
