@@ -9,6 +9,7 @@ import { Header } from './Components/Header/Header';
 import ThemeContext from './ThemeContext';
 import LangContext from './LangContext';
 import { SocialMedia } from './Components/SocialMedia/SocialMedia';
+import { Footer } from './Components/Footer/Footer';
 
 export function App() {
 
@@ -33,6 +34,7 @@ export function App() {
             <Header />
             <SocialMedia />
             <AppRoutes />
+            <Footer />
         </LangContext.Provider>
         </ThemeContext.Provider>
         </BrowserRouter>
