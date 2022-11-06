@@ -17,5 +17,11 @@ export const frenchCopy = {
         "about6": "J'aime ",
         "about7": "résoudre des problèmes", 
         "about8": " et améliorer l'expérience utilisateur 🙌"
+    },
+    "resume": {
+        "jobtitle1": "Knowledge Management Specialist @OpenClassrooms",
+        "job1item1": "Gestion de la connaissance pour toute l'équipe Opérations",
+        "job1item2": "Définition des guidelines et maintenance des Centre d'Aide",
+        "job1item3": "Suivi des indicateurs (qualité, impact, ...)"
     }
 }

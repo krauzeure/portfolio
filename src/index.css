@@ -25,8 +25,8 @@ body {
 .dark-theme {
   --main : #f9f9f9;
   --secondary : #333;
-  --accent : #0bc227;
-  --light-grey : #d2d2d2;
+  --accent : #42bd62;
+  --light-grey : #bbbbbb;
   /* background-color: var(--secondary);
   color: var(--main); */
 }

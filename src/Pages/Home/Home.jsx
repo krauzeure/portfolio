@@ -10,7 +10,6 @@ import { englishCopy } from '../../text/english';
 export function Home() {
 
   const langValue = useContext(LangContext);
-  console.log(frenchCopy.home.heading.length)
 
   return (
     <main class="main-about">
