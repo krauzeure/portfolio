@@ -25,8 +25,6 @@ export function Header() {
         langValue.updateLang(!langValue.lang);
     }
 
-    console.log(langValue.lang)
-
   return (
     <header>
         <nav>
@@ -34,10 +32,10 @@ export function Header() {
             <Link to="/"><img src={Cyrielle} alt="cyrielle" className="profile-photo"/></Link>
             <ul>
                     <Link to="/">
-                        <li className="nav-item fr">{langValue.lang ? frenchCopy.home : englishCopy.home}</li>
+                        <li className="nav-item fr">{langValue.lang ? frenchCopy.header.home : englishCopy.header.home}</li>
                     </Link>
                     <Link to="/resume">
-                        <li className="nav-item fr">{langValue.lang ? frenchCopy.resume : englishCopy.resume}</li>
+                        <li className="nav-item fr">{langValue.lang ? frenchCopy.header.resume : englishCopy.header.resume}</li>
                     </Link>
                 </ul>
             </div>
