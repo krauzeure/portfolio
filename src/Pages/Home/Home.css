@@ -43,6 +43,8 @@
     font-family: 'Playfair Display', serif;
     text-decoration: none;
     transition: all 400ms ease-in-out;
+    display: flex;
+    align-items: center;
 }
 
 .primary-cta {
@@ -87,7 +89,7 @@
   }
   @keyframes typewriter-fr{
     from{width: 0;}
-    to{width: 650px;}
+    to{width: 602px;}
   }
 
   @keyframes typewriter-en{

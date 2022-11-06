@@ -2,7 +2,6 @@ import React from 'react'
 
 import Github from './github.svg'
 import LinkedIn from './linkedin.svg'
-import Medium from './medium.svg'
 
 import './SocialMedia.css'
 
@@ -21,8 +20,6 @@ export function SocialMedia() {
         className={contextValue.theme ? "social-media-logo" : "social-media-logo social-media-logo-inverted"}/>
         <img src={LinkedIn} alt="linkedin"
         className={contextValue.theme ? "social-media-logo" : "social-media-logo social-media-logo-inverted"}/>
-        {/* <img src={Medium} alt="medium" 
-        className={contextValue.theme ? "social-media-logo" : "social-media-logo social-media-logo-inverted"}/> */}
     </div>
   )
 }

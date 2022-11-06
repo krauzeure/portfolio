@@ -22,8 +22,8 @@ export function Home() {
         </section>
 
         <div className="home-buttons">
-          <Link class="home-cta resume-cta primary-cta" to="/projects">{langValue.lang ? frenchCopy.home.primarycta : englishCopy.home.primarycta}</Link>
-          <Link class="home-cta projects-cta secondary-cta" to="/resume">{langValue.lang ? frenchCopy.home.secondarycta : englishCopy.home.secondarycta}</Link>
+          <Link class="home-cta resume-cta primary-cta" to="/projects">→ {langValue.lang ? frenchCopy.home.primarycta : englishCopy.home.primarycta}</Link>
+          <Link class="home-cta projects-cta secondary-cta" to="/resume">→ {langValue.lang ? frenchCopy.home.secondarycta : englishCopy.home.secondarycta}</Link>
         </div>
 
         <div class="main-content">
