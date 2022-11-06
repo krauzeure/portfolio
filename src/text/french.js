@@ -9,6 +9,13 @@ export const frenchCopy = {
         "subheading": "Dev Front, Project Manager, Amatrice de problèmes à résoudre.",
         "primarycta": "Mes projets",
         "secondarycta": "Mon CV",
-        "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam ipsum officia atque incidunt, molestias eos nam sit beatae earum molestiae rem optio et nemo repellendus distinctio accusantium aliquam quos ipsa. Error amet eaque consequuntur, maxime, tenetur optio nesciunt atque et ullam iusto eligendi inventore excepturi, reprehenderit quasi libero ea in velit laudantium ratione modi! Eum minima quo consectetur unde sit! Accusantium excepturi commodi voluptatem labore eligendi, laboriosam maxime mollitia accusamus praesentium. Mollitia, quam eum? Corporis vero tenetur, itaque est praesentium nulla sed exercitationem aperiam necessitatibus beatae fugiat fugit! Fuga, quo? Officiis saepe quam reprehenderit non perspiciatis placeat? Aut, temporibus aperiam. In quod veniam aliquid, ipsam assumenda consequuntur impedit. Hic in inventore voluptate placeat dicta veniam neque id quia ipsum facere! Iure explicabo quam enim nostrum distinctio quidem delectus perspiciatis aliquid quos ab quaerat ut dolore sint illum, porro error debitis minima temporibus deleniti culpa animi ipsum fugit maxime?"
+        "about1": "Passionnée de technologie",
+        "about2": ", je travaille dans le monde du web depuis 10 ans. J'ai travaillé au Support Client pendant plusieurs années tout en apprenant les bases du développement et de l'UX dans mon temps libre.",
+        "about3": "Aujourd'hui, je sors d'une ",
+        "about4": "formation de Développeur Web",
+        "about5": " et je cherche des projets de développement.",
+        "about6": "J'aime ",
+        "about7": "résoudre des problèmes", 
+        "about8": " et améliorer l'expérience utilisateur 🙌"
     }
 }

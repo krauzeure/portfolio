@@ -36,3 +36,10 @@ body {
   background-color: var(--secondary);
   color: var(--main);
 }
+
+u {
+  border-bottom: 2px solid var(--accent);
+  /* padding-bottom: 1px; */
+  text-decoration: none;
+  /* font-weight: 600; */
+}

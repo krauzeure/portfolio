@@ -27,7 +27,9 @@ export function Home() {
         </div>
 
         <div class="main-content">
-          {langValue.lang ? frenchCopy.home.about : englishCopy.home.about}
+          <p><u>{langValue.lang ? frenchCopy.home.about1 : englishCopy.home.about1}</u>{langValue.lang ? frenchCopy.home.about2 : englishCopy.home.about2}</p>
+          <p>{langValue.lang ? frenchCopy.home.about3 : englishCopy.home.about3}<u>{langValue.lang ? frenchCopy.home.about4 : englishCopy.home.about4}</u>{langValue.lang ? frenchCopy.home.about5 : englishCopy.home.about5}</p>
+          <p>{langValue.lang ? frenchCopy.home.about6 : englishCopy.home.about6}<u>{langValue.lang ? frenchCopy.home.about7 : englishCopy.home.about7}</u>{langValue.lang ? frenchCopy.home.about8 : englishCopy.home.about8}</p>
         </div>
     </main>
   )
