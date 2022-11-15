@@ -41,6 +41,7 @@ export function Home() {
               {langValue.lang ? frenchCopy.home.heading : englishCopy.home.heading}
             </h1>
             <p>{langValue.lang ? frenchCopy.home.subheading : englishCopy.home.subheading}</p>
+            <p>{langValue.lang ? frenchCopy.home.desc : englishCopy.home.desc}</p>
         </section>
 
         <section className="projects main-section"id="projects">

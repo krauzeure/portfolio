@@ -7,7 +7,8 @@ export const frenchCopy = {
     },
     "home": {
         "heading": "J'me présente, je m'appelle Cyrielle",
-        "subheading": "Dev Front, Project Manager, Amatrice de problèmes à résoudre.",
+        "subheading": "Développeur Front-End, Project Manager, Amatrice de problèmes à résoudre.",
+        "desc": "Diplômée de la formation Développeur Web OpenClassrooms, je suis à la recherche de mon premier poste en tant que Développeur Front-End.",
         "about1": "Passionnée de technologie",
         "about2": ", je travaille dans le monde du web depuis 10 ans. J'ai travaillé au Support Client pendant plusieurs années tout en apprenant les bases du développement et de l'UX dans mon temps libre.",
         "about3": "Aujourd'hui, je sors d'une ",
