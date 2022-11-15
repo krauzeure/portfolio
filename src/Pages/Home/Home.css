@@ -29,12 +29,10 @@
     align-items: flex-start;
 }
 
-.main-content {
-    margin: 40px 0;
-}
-
-.main-content p {
+.about-content {
     margin: 30px 0;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .home-buttons {
@@ -113,7 +111,7 @@
     margin: 60px 0;
   }
 
-  .projects-top-border {
+  .section-top-border {
     position: relative;
     width: 60%;
     border-top: 1px solid var(--light-grey);
@@ -190,4 +188,28 @@
     text-decoration: none;
     border: 1px solid var(--accent);
     margin-top: 70px;
+  }
+
+  .about-container {
+    display: flex;
+  }
+
+  .about-photo img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .about-photo {
+    position: relative;
+    margin-left: 60px;
+  }
+
+  .about-photo-background {
+    width: 200px;
+    height: 200px;
+    background-color: var(--main);
   }

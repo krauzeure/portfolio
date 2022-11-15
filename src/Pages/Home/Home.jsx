@@ -2,6 +2,7 @@ import './Home.css'
 
 import Download from './download.png'
 import DownloadDark from './download-dark.png'
+import Cyrielle from './cyrielle.png'
 
 import { useContext, useState } from 'react';
 
@@ -44,9 +45,9 @@ export function Home() {
             <p>{langValue.lang ? frenchCopy.home.desc : englishCopy.home.desc}</p>
         </section>
 
-        <section className="projects main-section"id="projects">
+        <section className="projects main-section" id="projects">
           <h2>Projets</h2>
-          <div className="projects-top-border"></div>
+          <div className="section-top-border"></div>
             <Project title={"Kanap"} text={"Intégration du site Kanap avec Javascript. Récupération des produits via l’API, création d’un panier via le local storage, et envoi de la commande au serveur. "} />
 
             <Project title={"Kanap"} text={"Intégration du site Kanap avec Javascript. Récupération des produits via l’API, création d’un panier via le local storage, et envoi de la commande au serveur. "} reversed={true} />
@@ -56,7 +57,7 @@ export function Home() {
 
         <section className="experience main-section" id="experience">
         <h2>Experience</h2>
-          <div className="projects-top-border"></div>
+          <div className="section-top-border"></div>
 
           <div className="experience-container">
             <div className="experience-selector">
@@ -134,11 +135,33 @@ export function Home() {
 
         </section>
 
-        {/* <div className="main-content">
-          <p><u>{langValue.lang ? frenchCopy.home.about1 : englishCopy.home.about1}</u>{langValue.lang ? frenchCopy.home.about2 : englishCopy.home.about2}</p>
-          <p>{langValue.lang ? frenchCopy.home.about3 : englishCopy.home.about3}<u>{langValue.lang ? frenchCopy.home.about4 : englishCopy.home.about4}</u>{langValue.lang ? frenchCopy.home.about5 : englishCopy.home.about5}</p>
-          <p>{langValue.lang ? frenchCopy.home.about6 : englishCopy.home.about6}<u>{langValue.lang ? frenchCopy.home.about7 : englishCopy.home.about7}</u>{langValue.lang ? frenchCopy.home.about8 : englishCopy.home.about8}</p>
-        </div> */}
+        <section className="about main-section" id="about">
+          <h2>A propos</h2>
+          <div className="section-top-border"></div>
+
+          <div className="about-container">
+            <div className="about-content">
+                <p>
+                  <u>{langValue.lang ? frenchCopy.home.about1 : englishCopy.home.about1}</u>
+                  {langValue.lang ? frenchCopy.home.about2 : englishCopy.home.about2}
+                </p>
+                <p>
+                  {langValue.lang ? frenchCopy.home.about3 : englishCopy.home.about3}
+                  <u>{langValue.lang ? frenchCopy.home.about4 : englishCopy.home.about4}</u>
+                  {langValue.lang ? frenchCopy.home.about5 : englishCopy.home.about5}
+                </p>
+                <p>
+                  {langValue.lang ? frenchCopy.home.about6 : englishCopy.home.about6}
+                  <u>{langValue.lang ? frenchCopy.home.about7 : englishCopy.home.about7}</u>
+                  {langValue.lang ? frenchCopy.home.about8 : englishCopy.home.about8}
+                </p>
+            </div>
+            <div className="about-photo">
+              <div className="about-photo-background"></div>
+              <img src={Cyrielle} alt="Cyrielle" />
+            </div>
+          </div>
+        </section>
     </>
   )
 }
