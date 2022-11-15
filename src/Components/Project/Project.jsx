@@ -1,8 +1,15 @@
 import './Project.css'
+import Github from './github.svg'
+import ThemeContext from '../../ThemeContext';
+
+import { useContext } from 'react';
 
 export function Project(props) {
 
+  const contextValue = useContext(ThemeContext);
+
   return (
+
     <article 
     className={ props.reversed ? "project-card project-card-reversed" : "project-card" }
     >
@@ -14,6 +21,11 @@ export function Project(props) {
               {props.tags.map((item, index) => {
                 return <li key={`${props.title} - ${index}`} className="project-tag">{item}</li>
               })}
+              {props.link ? <a href={props.link}><span class="material-symbols-outlined">open_in_new</span></a> : ""}
+              {props.github ? <a href={props.github}><img 
+              className={contextValue.theme ? "project-github" : "project-github project-github-inverted"}
+              src={Github} 
+              alt="github" /></a> : ""}
             </ul>
         </div>
         </div>

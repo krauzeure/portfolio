@@ -47,11 +47,31 @@ export function Home() {
         <section className="projects main-section" id="projects">
           <h2>Projets</h2>
           <div className="section-top-border"></div>
-            <Project title={"Kanap"} text={"Intégration du site Kanap avec Javascript. Récupération des produits via l’API, création d’un panier via le local storage, et envoi de la commande au serveur."} img={P5} tags={["Javascript", "API", "localStorage"]} />
+            <Project 
+            title={"Kanap"} 
+            text={langValue.lang ? frenchCopy.projects.kanap : englishCopy.projects.kanap} 
+            img={P5} 
+            tags={["Javascript", "API", "localStorage"]}
+            />
 
-            <Project title={"Kasa"} text={"Intégration du site Kasa en React. Utilisation des états, des composants, et mise en ligne via Github pages"} reversed={true} img={P7} tags={["React", "CSS", "Github pages"]} />
+            <Project 
+            title={"Kasa"} 
+            text={langValue.lang ? frenchCopy.projects.kasa : englishCopy.projects.kasa} 
+            reversed={true} 
+            img={P7} 
+            tags={["React", "CSS", "Github pages"]} 
+            link={"https://krauzeure.github.io/dwP7"}
+            github={"https://github.com/krauzeure/dwP7"}
+            />
 
-            <Project title={"Ohmyfood!"} text={"Intégration du site Ohmyfood! en HTML et avec SASS. Utilisation des animations CSS (transition et keyframes)."} img={P3} tags={["SASS", "HTML", "Animation"]} />
+            <Project 
+            title={"Ohmyfood!"} 
+            text={langValue.lang ? frenchCopy.projects.ohmyfood : englishCopy.projects.ohmyfood} 
+            img={P3} 
+            tags={["SASS", "HTML", "Animation"]} 
+            link={"https://krauzeure.github.io/dwP3/"}
+            github={"https://github.com/krauzeure/dwP3"}
+            />
         </section>
 
         <section className="experience main-section" id="experience">
