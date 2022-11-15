@@ -16,10 +16,6 @@
     font-size: 30px;
 }
 
-/* .main-description-hello {
-    filter: grayscale(100%) brightness(0.6);
-} */
-
 .main-about {
     margin: 40px auto;
     display: flex;
@@ -104,4 +100,88 @@
   @keyframes blinkTextCursor{
     from{border-right-color: var(--light-grey);}
     to{border-right-color: transparent;}
+  }
+
+  .projects {
+    position: relative;
+    margin: 60px 0;
+  }
+
+  .projects-top-border {
+    position: relative;
+    width: 60%;
+    border-top: 1px solid var(--light-grey);
+    margin-bottom: 60px;
+  }
+
+  .main-section > h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    width: fit-content;
+    background-color: var(--secondary);
+    z-index: 1;
+    position: relative;
+    top: 15px;
+    font-weight: 600;
+    padding-right: 40px;
+  }
+
+  .experience-container {
+    display: flex;
+  }
+
+  .experience-selector ul {
+    list-style-type: none;
+  }
+
+  .experience-item-arrow {
+    padding: 0 15px;
+    color: var(--accent);
+    transition: transform 500ms cubic-bezier(.51,.92,.24,1.15);
+  }
+
+  .experience-selector {
+    flex: 1;
+    cursor: pointer;
+  }
+
+  .experience-content {
+    flex: 4;
+    margin-left: 50px;
+    height: 400px;
+  }
+
+  .experience-item-arrow-openclassrooms {
+    transform: translateY(0%);
+  }
+
+  .experience-item-arrow-drivy {
+    transform: translateY(27.5px);
+  }
+
+  .experience-item-arrow-schibsted {
+    transform: translateY(55px);
+  }
+
+  .experience-item-arrow-leboncoin {
+    transform: translateY(82.5px);
+  }
+
+  .resume-download img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .resume-download {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: var(--accent);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 1px solid var(--accent);
+    margin-top: 70px;
   }

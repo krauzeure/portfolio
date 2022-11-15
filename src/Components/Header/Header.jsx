@@ -1,12 +1,10 @@
-import Cyrielle from './cyrielle.jpeg'
-import France from './france.png'
-import USA from './us.png'
+import Logo from './Logo.png'
+import LogoDark from './Logo-Dark.png'
 
 import './Header.css'
 import { frenchCopy } from '../../text/french'
 import { englishCopy } from '../../text/english'
 
-import { Link } from 'react-router-dom'
 import { useContext } from 'react'
 import ThemeContext from '../../ThemeContext'
 import LangContext from '../../LangContext'
@@ -29,22 +27,28 @@ export function Header() {
     <header>
         <nav className="header-nav-container">
             <div className="nav-links">
-            <Link to="/"><img src={Cyrielle} alt="cyrielle" className="profile-photo"/></Link>
+            <a href="/"><img 
+            src={contextValue.theme ? Logo : LogoDark}
+            alt="logo" 
+            className="profile-photo"/></a>
             <ul>
-                    <Link to="/">
-                        <li className="nav-item fr">{langValue.lang ? frenchCopy.header.home : englishCopy.header.home}</li>
-                    </Link>
-                    <Link to="/resume">
-                        <li className="nav-item fr">{langValue.lang ? frenchCopy.header.resume : englishCopy.header.resume}</li>
-                    </Link>
-                    <Link to="/projects">
+                    <a href="/#projects">
                         <li className="nav-item fr">{langValue.lang ? frenchCopy.header.projects : englishCopy.header.projects}</li>
-                    </Link>
+                    </a>
+                    <a href="/#experience">
+                        <li className="nav-item fr">{langValue.lang ? frenchCopy.header.experience : englishCopy.header.experience}</li>
+                    </a>
+                    <a href="/projects">
+                        <li className="nav-item fr">{langValue.lang ? frenchCopy.header.about : englishCopy.header.about}</li>
+                    </a>
+                    <a href="/projects">
+                        <li className="nav-item fr">Contact</li>
+                    </a>
                 </ul>
             </div>
             <div className="nav-selectors">
                 <div className="language-select nav-selector" onClick={toggleLang}>
-                    <img src={langValue.lang ? USA : France} alt="language"/>
+                    {langValue.lang ? frenchCopy.header.lang : englishCopy.header.lang}
                 </div>
                 <div className="theme-select nav-selector" onClick={toggleTheme}>
                 {contextValue.theme ? "🌙" : "☀️"}

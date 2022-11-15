@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Poppins:wght@200;300;400;500;600&display=swap&family=Playfair+Display:wght@400;600;700&display=swap');
 
 *, :before, :after {
   box-sizing: border-box;
@@ -9,7 +9,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
 }
 
@@ -18,8 +18,7 @@ body {
   --secondary : #f9f9f9;
   --accent : #08921d;
   --light-grey : #d2d2d2;
-  /* background-color: var(--main);
-  color: var(--secondary); */
+  --background: #fff;
 }
 
 .dark-theme {
@@ -27,19 +26,23 @@ body {
   --secondary : #333;
   --accent : #42bd62;
   --light-grey : #bbbbbb;
-  /* background-color: var(--secondary);
-  color: var(--main); */
+  --background: #000;
 }
 
 .main-container {
-  padding: 0 15%;
   background-color: var(--secondary);
   color: var(--main);
 }
 
+main {
+  padding: 70px 15%;
+}
+
 u {
   border-bottom: 2px solid var(--accent);
-  /* padding-bottom: 1px; */
   text-decoration: none;
-  /* font-weight: 600; */
+}
+
+a {
+  text-decoration: none;
 }

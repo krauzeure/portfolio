@@ -1,0 +1,29 @@
+.experience-content-item ul {
+    margin: 30px 0 30px 40px;
+}
+
+.experience-content-item {
+    display: block;
+}
+
+.experience-content-item-hidden {
+    display: none;
+}
+
+.experience-item-tasks > h2 {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.experience-item-tasks > h1 {
+    font-size: 22px;
+    color: var(--accent);
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+.experience-item-task {
+    font-size: 16px;
+    font-weight: 300;
+}

@@ -1,14 +1,13 @@
 export const englishCopy = {
     "header": {
-        "home": "Home",
-        "resume": "Resume",
-        "projects": "Projects"
+        "projects": "Projects",
+        "experience": "Experience",
+        "about": "About",
+        "lang": "FR"
     },
     "home": {
         "heading": "Hey there, I'm Cyrielle",
         "subheading": "Front Dev, Project Manager, Problem solving enthousiast.",
-        "primarycta": "My projects",
-        "secondarycta": "My resume",
         "about1": "Tech enthusiast",
         "about2": ", I've been working at tech start ups for 10 years. I worked in Client Support for a few years while teaching myself UX and Developement basics.",
         "about3": "I'm just getting out of a ",
@@ -22,30 +21,31 @@ export const englishCopy = {
         "experience": "Experience",
         "training": "Training",
         "skills": "Skills",
-        "oc2": "Knowledge Management Specialist @OpenClassrooms",
+        "oc2": "Knowledge Management Specialist",
         "oc2date": "oct 2022 - present",
         "oc2item1": "Managing the knowledge for the entire Ops team",
         "oc2item2": "Creating guidelines and maintening our Help Centers",
         "oc2item3": "Tracking our success metrics (content quality, impact, ...)",
-        "oc1": "Mentor & Coach Support Manager @OpenClassrooms",
+        "oc1": "Mentor & Coach Support Manager",
         "oc1date": "july 2019 - sep 2022",
         "oc1item1": "Creating the Mentor & Coach Support processes",
         "oc1item2": "Creating the guidelines for our Help Centers",
         "oc1item3": "Organizing and updating our Help Centres (student, mentor, employer)",
-        "drivy": "Client Support Project Manager @Drivy",
+        "drivy": "Client Support Project Manager",
         "drivydate": "jan 2018 - june 2019",
         "drivyitem1": "Writing and updating the Help Center across 6 countries",
         "drivyitem2": "Passing on the user feedback via an internal newsletter",
         "drivyitem3": "Reshaping our macro system and writing it across 6 countries ",
-        "schibsted": "Customer Success Manager @Schibsted (London)",
+        "schibsted": "Customer Success Manager (London)",
         "schibsteddate": "march 2016 - dec 2017",
         "schibsteditem1": "Launching the Client Service team (procedures, training)",
         "schibsteditem2": "Gathering user feedback and suggestions for Product & UX improvements",
         "schibsteditem3": "Analysing user behaviour on several projects using webanalytics and user testing to improve UX",
-        "lbc": "Process and Prod Officer @Leboncoin",
+        "lbc": "Process and Prod Officer",
         "lbcdate": "oct 2012 - feb 2016",
         "lbcitem1": "Answering user questions (Level 2)",
         "lbcitem2": "Sending and analysing NPS surveys",
-        "lbcitem3": "Procedure writing to improve our answer quality (from 78% to 92%)"
+        "lbcitem3": "Procedure writing to improve our answer quality (from 78% to 92%)",
+        "download": "Resume"
     }
 }

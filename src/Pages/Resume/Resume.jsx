@@ -12,6 +12,7 @@ import { frenchCopy } from '../../text/french'
 import { englishCopy } from '../../text/english';
 
 import { ResumeItem } from '../../Components/ResumeItem/ResumeItem';
+import { Link } from 'react-router-dom'
 
 export function Resume() {
 
@@ -35,6 +36,7 @@ export function Resume() {
 
   return (
     <>
+    <a href="/resume#test">Test</a>
     <nav className="resume-nav">
             <ul>
                 <li className="resume-nav-item resume-nav-experience resume-nav-item-active" id="resume-nav-experience" onClick={changeTab}>
@@ -98,6 +100,7 @@ export function Resume() {
         />
 
         <ResumeItem 
+        id="test"
         date={langValue.lang ? frenchCopy.resume.lbcdate : englishCopy.resume.lbcdate}
         jobtitle={langValue.lang ? frenchCopy.resume.lbc : englishCopy.resume.lbc}
         task1={langValue.lang ? frenchCopy.resume.lbcitem1 : englishCopy.resume.lbcitem1}

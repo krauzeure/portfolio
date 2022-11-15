@@ -1,0 +1,50 @@
+.project-card {
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.project-card-reversed {
+    flex-direction: row-reverse;
+}
+
+.project-text {
+    background-color: var(--background);
+    width: 70%;
+    padding: 25px;
+    position: relative;
+}
+
+.project-text h3 {
+    color: var(--accent);
+}
+
+.project-text p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.project-card img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    filter: grayscale(1);
+    transition: filter 400ms ease-in-out;
+}
+
+.project-card img:hover {
+    filter: grayscale(0);
+}
+
+.project-tags ul {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+}
+
+.project-tags ul li {
+    margin-right: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+}

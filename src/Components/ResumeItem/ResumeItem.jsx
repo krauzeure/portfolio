@@ -2,7 +2,7 @@ import './ResumeItem.css'
 
 export function ResumeItem(props) {
   return (
-    <article className="resume-item">
+    <article className="resume-item" id={props.id}>
         <div className="resume-item-circle-container">
             <div className="resume-item-circle"></div>
         </div>
