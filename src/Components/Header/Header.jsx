@@ -41,7 +41,7 @@ export function Header() {
                     <a href="/#about">
                         <li className="nav-item fr">{langValue.lang ? frenchCopy.header.about : englishCopy.header.about}</li>
                     </a>
-                    <a href="/projects">
+                    <a href="/#contact">
                         <li className="nav-item fr">Contact</li>
                     </a>
                 </ul>

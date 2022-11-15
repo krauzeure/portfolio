@@ -16,7 +16,9 @@ export const frenchCopy = {
         "about5": " et je cherche des projets de développement.",
         "about6": "J'aime ",
         "about7": "résoudre des problèmes", 
-        "about8": " et améliorer l'expérience utilisateur 🙌"
+        "about8": " et améliorer l'expérience utilisateur 🙌",
+        "contact": "Si vous voulez parler d'un projet, ou juste discuter, n'hésitez pas à me contacter !",
+        "contactcta": "Me contacter"
     },
     "resume": {
         "experience": "Expérience",
@@ -47,6 +49,6 @@ export const frenchCopy = {
         "lbcitem1": "Traitement des demandes utilisateurs (Niveau 2)",
         "lbcitem2": "Envoi et analyse d'enquêtes de satisfaction pour améliorer notre NPS",
         "lbcitem3": "Rédaction de procédure pour améliorer la qualité de l’équipe (de 78% à 92%)",
-        "download": "CV"
+        "download": "Télécharger mon CV"
     }
 }

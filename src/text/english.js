@@ -16,7 +16,9 @@ export const englishCopy = {
         "about5": " and I'm looking for tech projects",
         "about6": "I'm passionate about ",
         "about7": "problem solving", 
-        "about8": " and improving the user experience 🙌"
+        "about8": " and improving the user experience 🙌",
+        "contact": "If you’d like to discuss a project or just have a chat, feel free to reach out!",
+        "contactcta": "Contact"
     },
     "resume": {
         "experience": "Experience",
@@ -47,6 +49,6 @@ export const englishCopy = {
         "lbcitem1": "Answering user questions (Level 2)",
         "lbcitem2": "Sending and analysing NPS surveys",
         "lbcitem3": "Procedure writing to improve our answer quality (from 78% to 92%)",
-        "download": "Resume"
+        "download": "Download my resume"
     }
 }

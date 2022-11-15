@@ -17,8 +17,6 @@
 }
 
 .main-description p:nth-child(3) {
-  font-size: 16px;
-  font-weight: 300;
   margin-top: 30px;
 }
 
@@ -31,8 +29,6 @@
 
 .about-content {
     margin: 30px 0;
-    font-size: 16px;
-    font-weight: 300;
 }
 
 .home-buttons {
@@ -118,6 +114,10 @@
     margin-bottom: 60px;
   }
 
+  .main-section {
+    margin-bottom: 30px;
+  }
+
   .main-section > h2 {
     font-family: 'Playfair Display', serif;
     font-size: 24px;
@@ -152,7 +152,7 @@
   .experience-content {
     flex: 4;
     margin-left: 50px;
-    height: 400px;
+    min-height: 400px;
   }
 
   .experience-item-arrow-openclassrooms {
@@ -179,7 +179,6 @@
 
   .resume-download {
     font-family: 'Playfair Display', serif;
-    font-size: 16px;
     color: var(--accent);
     width: fit-content;
     display: flex;
@@ -187,7 +186,6 @@
     padding: 10px 35px;
     text-decoration: none;
     border: 1px solid var(--accent);
-    margin-top: 70px;
   }
 
   .about-container {
@@ -212,4 +210,26 @@
     width: 200px;
     height: 200px;
     background-color: var(--main);
+  }
+
+  .contact-cta {
+    font-family: 'Playfair Display', serif;
+    color: var(--accent);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 10px 35px;
+    text-decoration: none;
+    border: 1px solid var(--accent);
+    margin-top: 40px;
+  }
+
+  .button:hover {
+    background-color: var(--accent);
+    color: var(--secondary);
+    transition: all 400ms ease-in-out;
+  }
+
+  .button:hover + .resume-download img {
+    filter: brightness(1) grayscale(1);
   }

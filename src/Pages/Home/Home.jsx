@@ -1,13 +1,10 @@
 import './Home.css'
 
-import Download from './download.png'
-import DownloadDark from './download-dark.png'
 import Cyrielle from './cyrielle.png'
 
 import { useContext, useState } from 'react';
 
 import LangContext from '../../LangContext';
-import ThemeContext from '../../ThemeContext';
 import { frenchCopy } from '../../text/french'
 import { englishCopy } from '../../text/english';
 import { Project } from '../../Components/Project/Project';
@@ -16,7 +13,6 @@ import { ExperienceItem } from '../../Components/ExperienceItem/ExperienceItem';
 export function Home() {
 
   const langValue = useContext(LangContext);
-  const ThemeValue = useContext(ThemeContext);
   const [activeTab, setActiveTab] = useState("OpenClassrooms");
 
   const changeSelector = (e) => {
@@ -67,15 +63,6 @@ export function Home() {
                 <li className="experience-item" onClick={changeSelector}>Schibsted</li>
                 <li className="experience-item" onClick={changeSelector}>Leboncoin</li>
               </ul>
-              <a href="/">
-                <div className="resume-download">
-                  <img 
-                  src={ThemeValue.theme ? Download : DownloadDark}
-                  alt={langValue.lang ? "Télécharger CV" : "Download resume"} 
-                  />
-                  {langValue.lang ? frenchCopy.resume.download : englishCopy.resume.download} 
-                </div>
-              </a>
             </div>
             <span className={arrowClass}>↠</span>
             <div className="experience-content">
@@ -132,7 +119,15 @@ export function Home() {
 
             </div>
           </div>
-
+          <a href="/">
+                <div className="resume-download button">
+                  {/* <img 
+                  src={ThemeValue.theme ? Download : DownloadDark}
+                  alt={langValue.lang ? "Télécharger CV" : "Download resume"} 
+                  /> */}
+                  {langValue.lang ? frenchCopy.resume.download : englishCopy.resume.download} 
+                </div>
+              </a>
         </section>
 
         <section className="about main-section" id="about">
@@ -161,6 +156,17 @@ export function Home() {
               <img src={Cyrielle} alt="Cyrielle" />
             </div>
           </div>
+        </section>
+
+        <section className="contact main-section" id="contact">
+          <h2>Contact</h2>
+          <div className="section-top-border"></div>
+            <p>{langValue.lang ? frenchCopy.home.contact : englishCopy.home.contact}</p>
+            <a href="mailto:cyrielle.chasles@gmail.com">
+                <div className="contact-cta button">
+                  {langValue.lang ? frenchCopy.home.contactcta : englishCopy.resume.contactcta} 
+                </div>
+            </a>
         </section>
     </>
   )
