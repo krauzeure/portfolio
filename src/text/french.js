@@ -20,6 +20,12 @@ export const frenchCopy = {
         "contact": "Si vous voulez parler d'un projet, ou juste discuter, n'hésitez pas à me contacter !",
         "contactcta": "Me contacter"
     },
+    "mainheader": {
+        "projects": "Projets",
+        "experience": "Expérience",
+        "about": "À propos",
+        "contact": "Contact"
+    },
     "projects": {
         "kanap": "Intégration du site Kanap avec Javascript. Pour ce projet, j'ai récupéré des produits via une API, créé un panier via le local storage, et envoyé de la commande au serveur.",
         "kasa": "Intégration du site Kasa en React. Pour ce projet, j'ai utilisé les états, les composants, et mis en ligne le site via Github pages.",

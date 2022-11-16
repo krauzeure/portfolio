@@ -27,10 +27,6 @@
     align-items: flex-start;
 }
 
-.about-content {
-    margin: 30px 0;
-}
-
   .projects {
     position: relative;
     margin: 60px 0;
@@ -139,6 +135,14 @@
     width: 200px;
     height: 200px;
     background-color: var(--main);
+  }
+
+  .about-content {
+    margin: 10px 0;
+  }
+
+  .about-content p {
+    margin: 15px 0;
   }
 
   .contact-cta {

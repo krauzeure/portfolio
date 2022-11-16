@@ -45,7 +45,7 @@ export function Home() {
         </section>
 
         <section className="projects main-section" id="projects">
-          <h2>Projets</h2>
+          <h2>{langValue.lang ? frenchCopy.mainheader.projects : englishCopy.mainheader.projects}</h2>
           <div className="section-top-border"></div>
             <Project 
             title={"Kanap"} 
@@ -75,7 +75,7 @@ export function Home() {
         </section>
 
         <section className="experience main-section" id="experience">
-        <h2>Experience</h2>
+        <h2>{langValue.lang ? frenchCopy.mainheader.experience : englishCopy.mainheader.experience}</h2>
           <div className="section-top-border"></div>
 
           <div className="experience-container">
@@ -154,7 +154,7 @@ export function Home() {
         </section>
 
         <section className="about main-section" id="about">
-          <h2>A propos</h2>
+          <h2>{langValue.lang ? frenchCopy.mainheader.about : englishCopy.mainheader.about}</h2>
           <div className="section-top-border"></div>
 
           <div className="about-container">
@@ -182,12 +182,12 @@ export function Home() {
         </section>
 
         <section className="contact main-section" id="contact">
-          <h2>Contact</h2>
+          <h2>{langValue.lang ? frenchCopy.mainheader.contact : englishCopy.mainheader.contact}</h2>
           <div className="section-top-border"></div>
             <p>{langValue.lang ? frenchCopy.home.contact : englishCopy.home.contact}</p>
             <a href="mailto:cyrielle.chasles@gmail.com">
                 <div className="contact-cta button">
-                  {langValue.lang ? frenchCopy.home.contactcta : englishCopy.resume.contactcta} 
+                  {langValue.lang ? frenchCopy.home.contactcta : englishCopy.home.contactcta} 
                 </div>
             </a>
         </section>

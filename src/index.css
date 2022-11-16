@@ -21,7 +21,7 @@ body {
 .light-theme {
   --main : #333;
   --secondary : #f9f9f9;
-  --accent : #08921d;
+  --accent : #067A17;
   --light-grey : #d2d2d2;
   --background: #fff;
 }
@@ -45,8 +45,13 @@ main {
 }
 
 u {
-  border-bottom: 2px solid var(--accent);
+  border-bottom: 2px solid var(--secondary);
   text-decoration: none;
+  font-weight: 500;
+}
+
+u:hover {
+  border-color: var(--accent);
 }
 
 a {
