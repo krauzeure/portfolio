@@ -15,10 +15,14 @@ export function SocialMedia() {
 
   return (
     <div className="social-media-container">
-        <img src={Github} alt="github"
-        className={contextValue.theme ? "social-media-logo" : "social-media-logo social-media-logo-inverted"}/>
-        <img src={LinkedIn} alt="linkedin"
-        className={contextValue.theme ? "social-media-logo" : "social-media-logo social-media-logo-inverted"}/>
+        <a href="https://github.com/krauzeure" target="_blank" rel="noreferrer">
+          <img src={Github} alt="github"
+          className={contextValue.theme ? "social-media-logo" : "social-media-logo social-media-logo-inverted"}/>
+        </a>
+        <a href="https://www.linkedin.com/in/cyrielle-chasles-ab0b3b100/" target="_blank" rel="noreferrer">
+          <img src={LinkedIn} alt="linkedin"
+          className={contextValue.theme ? "social-media-logo" : "social-media-logo social-media-logo-inverted"}/>
+        </a>
     </div>
   )
 }
