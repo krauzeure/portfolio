@@ -96,18 +96,15 @@
     transform: translateY(82.5px);
   }
 
-  .resume-download img {
+  /* .resume-download img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
-  }
+  } */
 
   .resume-download {
-    font-family: 'Playfair Display', serif;
-    color: var(--accent);
-    width: fit-content;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     padding: 10px 35px;
     text-decoration: none;
     border: 1px solid var(--accent);
@@ -159,10 +156,23 @@
 
   .button:hover {
     background-color: var(--accent);
+    transition: all 500ms ease-in-out;
+    width: fit-content;
+  }
+
+  .button:hover a {
     color: var(--secondary);
-    transition: all 400ms ease-in-out;
   }
 
   .button:hover + .resume-download img {
     filter: brightness(1) grayscale(1);
+  }
+
+  .button {
+    width: fit-content;
+  }
+
+  .button a {
+    font-family: 'Playfair Display', serif;
+    color: var(--accent);
   }

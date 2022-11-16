@@ -142,15 +142,17 @@ export function Home() {
 
             </div>
           </div>
-          <a href="/">
+          
                 <div className="resume-download button">
+                <a href="/">
                   {/* <img 
                   src={ThemeValue.theme ? Download : DownloadDark}
                   alt={langValue.lang ? "Télécharger CV" : "Download resume"} 
                   /> */}
                   {langValue.lang ? frenchCopy.resume.download : englishCopy.resume.download} 
+                </a>
                 </div>
-              </a>
+              
         </section>
 
         <section className="about main-section" id="about">
@@ -185,11 +187,13 @@ export function Home() {
           <h2>{langValue.lang ? frenchCopy.mainheader.contact : englishCopy.mainheader.contact}</h2>
           <div className="section-top-border"></div>
             <p>{langValue.lang ? frenchCopy.home.contact : englishCopy.home.contact}</p>
-            <a href="mailto:cyrielle.chasles@gmail.com">
+            
                 <div className="contact-cta button">
+                <a href="mailto:cyrielle.chasles@gmail.com">
                   {langValue.lang ? frenchCopy.home.contactcta : englishCopy.home.contactcta} 
+                </a>
                 </div>
-            </a>
+            
         </section>
     </>
   )
