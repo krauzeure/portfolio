@@ -48,6 +48,7 @@ u {
   border-bottom: 2px solid var(--secondary);
   text-decoration: none;
   font-weight: 500;
+  transition: all 500ms ease-in-out;
 }
 
 u:hover {
