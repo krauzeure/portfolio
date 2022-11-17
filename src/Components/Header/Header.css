@@ -71,7 +71,38 @@ img.profile-photo {
     color: var(--main);
     text-decoration: none;
   }
+  
+  .nav-burger {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .nav-burger-line {
+    width: 40px;
+    height: 3px;
+    background-color: var(--main);
+  }
+
+  .nav-burger-one {
+    margin-bottom: 12px;
+  }
+
+  .nav-burger-three {
+    margin-top: 12px;
+  }
 
   @media screen and (max-width: 850px) {
-    
+    nav.header-nav-container ul {
+      display: none;
+    }
+
+    .nav-selectors {
+      display: none;
+    }
+
+    .nav-burger {
+      display: block;
+    }
   }

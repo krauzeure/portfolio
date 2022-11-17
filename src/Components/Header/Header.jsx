@@ -27,11 +27,11 @@ export function Header() {
     <header>
         <nav className="header-nav-container">
             <div className="nav-links">
-            <a href="/"><img 
-            src={contextValue.theme ? Logo : LogoDark}
-            alt="logo" 
-            className="profile-photo"/></a>
-            <ul>
+                <a href="/"><img 
+                src={contextValue.theme ? Logo : LogoDark}
+                alt="logo" 
+                className="profile-photo"/></a>
+                <ul>
                     <a href="/#projects">
                         <li className="nav-item fr">{langValue.lang ? frenchCopy.header.projects : englishCopy.header.projects}</li>
                     </a>
@@ -53,6 +53,11 @@ export function Header() {
                 <div className="theme-select nav-selector" onClick={toggleTheme}>
                 {contextValue.theme ? "🌙" : "☀️"}
                 </div>
+            </div>
+            <div className="nav-burger">
+                <div className="nav-burger-line nav-burger-one"></div>
+                <div className="nav-burger-line nav-burger-two"></div>
+                <div className="nav-burger-line nav-burger-three"></div>
             </div>
         </nav>
     </header>
