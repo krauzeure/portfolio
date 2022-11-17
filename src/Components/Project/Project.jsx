@@ -14,9 +14,11 @@ export function Project(props) {
     className={ props.reversed ? "project-card project-card-reversed" : "project-card" }
     >
         <div className="project-text">
+          <div className="project-name-desc">
             <h3>{props.title}</h3>
             <p>{props.text}</p>
-            <div className="project-tags">
+          </div>
+          <div className="project-tags">
             <ul>
               {props.tags.map((item, index) => {
                 return <li key={`${props.title} - ${index}`} className="project-tag">{item}</li>
@@ -27,7 +29,7 @@ export function Project(props) {
               src={Github} 
               alt="github" /></a> : ""}
             </ul>
-        </div>
+          </div>
         </div>
         <img src={props.img} alt="project illustration" />
     </article>

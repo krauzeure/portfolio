@@ -12,7 +12,9 @@
     background-color: var(--background);
     width: 70%;
     padding: 25px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-text h3 {
@@ -39,8 +41,7 @@
 .project-tags ul {
     list-style-type: none;
     display: flex;
-    position: absolute;
-    bottom: 25px;
+    margin-top: 20px;
 }
 
 .project-tags ul li {

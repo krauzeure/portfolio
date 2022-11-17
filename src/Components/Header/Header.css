@@ -1,5 +1,5 @@
 .nav-selector {
-    padding: 7px 30px;
+    padding: 7px 20px;
     color: var(--main);
     display: flex;
     align-items: center;
@@ -33,7 +33,7 @@ img.profile-photo {
   }
 
   header {
-    padding: 25px 15%;
+    padding: 25px 10%;
     background-color: var(--background);
   }
   
@@ -70,4 +70,8 @@ img.profile-photo {
   .nav-links a {
     color: var(--main);
     text-decoration: none;
+  }
+
+  @media screen and (max-width: 850px) {
+    
   }
