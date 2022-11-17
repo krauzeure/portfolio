@@ -61,6 +61,11 @@
 
   .experience-selector ul {
     list-style-type: none;
+    font-weight: 400;
+  }
+
+  .experience-selector li {
+    margin: 5px 0;
   }
 
   .experience-item-arrow {
@@ -81,19 +86,19 @@
   }
 
   .experience-item-arrow-openclassrooms {
-    transform: translateY(0%);
+    transform: translateY(5px);
   }
 
   .experience-item-arrow-drivy {
-    transform: translateY(27.5px);
+    transform: translateY(30px);
   }
 
   .experience-item-arrow-schibsted {
-    transform: translateY(55px);
+    transform: translateY(60px);
   }
 
   .experience-item-arrow-leboncoin {
-    transform: translateY(82.5px);
+    transform: translateY(90px);
   }
 
   /* .resume-download img {
