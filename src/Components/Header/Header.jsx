@@ -5,7 +5,7 @@ import './Header.css'
 import { frenchCopy } from '../../text/french'
 import { englishCopy } from '../../text/english'
 
-import { useContext } from 'react'
+import { useContext, useState } from 'react'
 import ThemeContext from '../../ThemeContext'
 import LangContext from '../../LangContext'
 
@@ -23,6 +23,13 @@ export function Header() {
         langValue.updateLang(!langValue.lang);
     }
 
+    const [menuState, setMenuState] = useState(false);
+
+    const updateMenu = () => {
+        setMenuState(!menuState);
+    }
+    console.log(menuState)
+
   return (
     <header>
         <nav className="header-nav-container">
@@ -31,7 +38,8 @@ export function Header() {
                 src={contextValue.theme ? Logo : LogoDark}
                 alt="logo" 
                 className="profile-photo"/></a>
-                <ul>
+                <ul
+                className={menuState ? "nav-anchors nav-burger-open" : "nav-anchors"}>
                     <a href="/#projects">
                         <li className="nav-item fr">{langValue.lang ? frenchCopy.header.projects : englishCopy.header.projects}</li>
                     </a>
@@ -46,7 +54,8 @@ export function Header() {
                     </a>
                 </ul>
             </div>
-            <div className="nav-selectors">
+            <div 
+            className={menuState ? "nav-selectors nav-burger-open" : "nav-selectors"}>
                 <div className="language-select nav-selector" onClick={toggleLang}>
                     {langValue.lang ? frenchCopy.header.lang : englishCopy.header.lang}
                 </div>
@@ -54,7 +63,7 @@ export function Header() {
                 {contextValue.theme ? "🌙" : "☀️"}
                 </div>
             </div>
-            <div className="nav-burger">
+            <div className="nav-burger" onClick={updateMenu}>
                 <div className="nav-burger-line nav-burger-one"></div>
                 <div className="nav-burger-line nav-burger-two"></div>
                 <div className="nav-burger-line nav-burger-three"></div>

@@ -54,11 +54,10 @@ img.profile-photo {
     align-items: center;
   }
   
-  nav.header-nav-container ul {
+  .nav-anchors {
     list-style-type: none;
     display: flex;
     margin-right: 10px;
-    /* border-left: 1px solid var(--light-grey); */
     padding-left: 30px;
   }
   
@@ -94,12 +93,57 @@ img.profile-photo {
   }
 
   @media screen and (max-width: 850px) {
-    nav.header-nav-container ul {
+    
+    .nav-anchors {
       display: none;
+    }
+
+    .header-nav-container {
+      position: relative;
+      /* flex-direction: column; */
     }
 
     .nav-selectors {
       display: none;
+    }
+
+    .nav-burger-open {
+      display: block;
+    }
+
+    .nav-anchors, .nav-selectors {
+      position: absolute;
+      right: 0;
+      top: 80px;
+      flex-direction: column;
+      text-align: right;
+      align-items: flex-end;
+      margin-right: 0;
+      width: 200px;
+      background-color: var(--background);
+    }
+
+    nav.header-nav-container ul {
+      padding: 20px 40px;
+    }
+
+    .nav-selectors {
+      top: 195px;
+      padding: 0 40px 20px;
+    }
+
+    .nav-selector {
+      margin-right: 0;
+      padding: 0;
+      justify-content: flex-end;
+    }
+
+    .nav-selector:hover {
+      background-color: transparent;
+    }
+
+    .nav-item {
+      margin-right: 0;
     }
 
     .nav-burger {
