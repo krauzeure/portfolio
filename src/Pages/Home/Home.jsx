@@ -81,7 +81,9 @@ export function Home() {
           <div className="experience-container">
             <div className="experience-selector">
               <ul>
-                <li className="experience-item" onClick={changeSelector}>OpenClassrooms</li>
+                <li 
+                className={activeTab === "OpenClassrooms" ? "experience-item test" : "experience-item"} 
+                onClick={changeSelector}>OpenClassrooms</li>
                 <li className="experience-item" onClick={changeSelector}>Drivy</li>
                 <li className="experience-item" onClick={changeSelector}>Schibsted</li>
                 <li className="experience-item" onClick={changeSelector}>Leboncoin</li>
@@ -145,10 +147,6 @@ export function Home() {
           
                 <div className="resume-download button">
                 <a href="/">
-                  {/* <img 
-                  src={ThemeValue.theme ? Download : DownloadDark}
-                  alt={langValue.lang ? "Télécharger CV" : "Download resume"} 
-                  /> */}
                   {langValue.lang ? frenchCopy.resume.download : englishCopy.resume.download} 
                 </a>
                 </div>

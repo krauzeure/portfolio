@@ -189,4 +189,23 @@
       position: static;
     }
 
+    .experience-container {
+      flex-direction: column;
+    }
+
+    .experience-item-arrow {
+      display: none;
+    }
+
+    .experience-selector ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 40px;
+    }
+
+    .experience-content {
+      margin-left: 0;
+    }
+
   }
