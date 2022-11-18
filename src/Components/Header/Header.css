@@ -1,9 +1,6 @@
 .nav-selector {
     padding: 7px 20px;
     color: var(--main);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
     transition: background-color 400ms ease-in-out;
 }
@@ -29,7 +26,6 @@ img.profile-photo {
     height: 50px;
     object-fit: cover;
     border-radius: 100%;
-    /* background-color: var(--accent); */
   }
 
   header {
@@ -39,7 +35,6 @@ img.profile-photo {
   
   header nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     font-size: 16px;
     font-weight: 400;
@@ -48,10 +43,11 @@ img.profile-photo {
   header nav li {
     margin: 0 20px;
   }
-  
-  .nav-links {
+
+  .nav-all-links {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    width: 100%;
   }
   
   .nav-anchors {
@@ -59,11 +55,11 @@ img.profile-photo {
     display: flex;
     margin-right: 10px;
     padding-left: 30px;
+    padding: 7px 0;
   }
   
   .nav-selectors {
     display: flex;
-    align-items: center;
   }
   
   .nav-links a {
