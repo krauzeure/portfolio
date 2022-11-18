@@ -37,10 +37,9 @@ export function Header() {
             src={contextValue.theme ? Logo : LogoDark}
             alt="logo" 
             className="profile-photo"/></a>
-            <div className="nav-all-links">
+            <div className={menuState ? "nav-all-links nav-burger-open" : "nav-all-links"}>
                 <div className="nav-links">
-                    <ul
-                    className={menuState ? "nav-anchors nav-burger-open" : "nav-anchors"}>
+                    <ul className="nav-anchors">
                         <a href="/#projects">
                             <li className="nav-item fr">{langValue.lang ? frenchCopy.header.projects : englishCopy.header.projects}</li>
                         </a>
@@ -55,8 +54,7 @@ export function Header() {
                         </a>
                     </ul>
                 </div>
-                <div 
-                className={menuState ? "nav-selectors nav-burger-open" : "nav-selectors"}>
+                <div className="nav-selectors">
                     <div className="language-select nav-selector" onClick={toggleLang}>
                         {langValue.lang ? frenchCopy.header.lang : englishCopy.header.lang}
                     </div>
