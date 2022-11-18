@@ -68,3 +68,33 @@ img.project-github-inverted {
 img.project-github-inverted:hover {
     filter: invert(100%);
 }
+
+@media screen and (max-width: 850px) {
+
+    .project-card {
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 40px;
+        height: fit-content;
+    }
+
+    .project-card > img {
+        position: absolute;
+        top: 0;
+        opacity: 0.1; 
+        height: 100%;
+        width: 100%;
+    }
+
+    .project-text {
+        width: 100%;
+        height: fit-content;
+        background: none;
+        z-index: 1;
+    }
+
+    .project-name-desc {
+        margin-bottom: 50px;
+    }
+
+}

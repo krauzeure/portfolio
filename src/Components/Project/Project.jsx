@@ -11,9 +11,9 @@ export function Project(props) {
   return (
 
     <article 
-    className={ props.reversed ? "project-card project-card-reversed" : "project-card" }
-    >
-        <div className="project-text">
+    className={ props.reversed ? "project-card project-card-reversed" : "project-card" }>
+        <div 
+        className="project-text">
           <div className="project-name-desc">
             <h3>{props.title}</h3>
             <p>{props.text}</p>
