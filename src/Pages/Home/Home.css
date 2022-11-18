@@ -101,15 +101,7 @@
     transform: translateY(90px);
   }
 
-  /* .resume-download img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-  } */
-
   .resume-download {
-    /* display: flex;
-    align-items: center; */
     padding: 10px 35px;
     text-decoration: none;
     border: 1px solid var(--accent);
@@ -180,4 +172,21 @@
   .button a {
     font-family: 'Playfair Display', serif;
     color: var(--accent);
+  }
+
+  @media screen and (max-width: 850px) {
+
+    .about-photo-background {
+      display: none;
+    }
+
+    .about-container {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    .about-photo img {
+      position: static;
+    }
+
   }
