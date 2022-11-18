@@ -58,3 +58,9 @@ u:hover {
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 850px) {
+  main {
+    padding: 70px 5%;
+  }
+}
