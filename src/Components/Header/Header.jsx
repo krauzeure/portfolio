@@ -64,9 +64,12 @@ export function Header() {
                 </div>
             </div>
             <div className="nav-burger" onClick={updateMenu}>
-                <div className="nav-burger-line nav-burger-one"></div>
-                <div className="nav-burger-line nav-burger-two"></div>
-                <div className="nav-burger-line nav-burger-three"></div>
+                <div 
+                className={menuState ? "nav-burger-line nav-burger-one nav-burger-one-open" : "nav-burger-line nav-burger-one"}></div>
+                <div 
+                className={menuState ? "nav-burger-line nav-burger-two nav-burger-two-open" : "nav-burger-line nav-burger-two"}></div>
+                <div 
+                className={menuState ? "nav-burger-line nav-burger-three nav-burger-three-open" : "nav-burger-line nav-burger-three"}></div>
             </div>
         </nav>
     </header>

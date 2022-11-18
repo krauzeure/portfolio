@@ -100,18 +100,24 @@ img.profile-photo {
     }
 
     .nav-all-links {
-      transform: translateX(250px);
+      /* transform: translateX(250px); */
       position: absolute;
       right: 0;
       top: 100px;
       flex-direction: column;
       align-items: flex-end;
-      transition: transform 400ms ease-in-out;
+      display: none;
+      /* transition: transform 400ms ease-in-out; */
     }
 
     .nav-burger-open {
-      transform: translateX(0px);
-      transition: transform 400ms ease-in-out;
+      display: flex;
+      position: absolute;
+      right: 0;
+      top: 100px;
+      z-index: 1;
+      /* transform: translateX(0px);
+      transition: transform 400ms ease-in-out; */
     }
 
     .nav-anchors, .nav-selectors {
@@ -147,5 +153,25 @@ img.profile-photo {
 
     .nav-burger {
       display: block;
+    }
+
+    .nav-burger-one, .nav-burger-three {
+      transform-origin: 100%;
+      transition: transform 400ms ease-in-out;
+      transform: translateY(0) rotate(0deg);
+    }
+
+    .nav-burger-one-open {
+      transform: rotate(-45deg) translateY(-9px);
+      transition: transform 400ms ease-in-out;
+    }
+
+    .nav-burger-two-open {
+      display: none;
+    }
+
+    .nav-burger-three-open {
+      transform: rotate(45deg) translateY(10px);
+      transition: transform 400ms ease-in-out;
     }
   }
