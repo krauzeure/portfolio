@@ -21,3 +21,14 @@
   .social-media-logo-inverted {
     filter: invert(100%);
   }
+
+  @media screen and (max-width: 850px) {
+
+    .social-media-container {
+      flex-direction: row;
+      position: fixed;
+      bottom: 115px;
+      left: 40%;
+    }
+
+  }

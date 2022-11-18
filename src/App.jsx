@@ -30,10 +30,10 @@ export function App() {
         <ThemeContext.Provider value={contextValue}>
         <LangContext.Provider value={langValue}>
             <Header />
-            <SocialMedia />
             <main>
                 <Home />
             </main>
+            <SocialMedia />
             <Footer />
         </LangContext.Provider>
         </ThemeContext.Provider>
