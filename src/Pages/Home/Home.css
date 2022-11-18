@@ -197,6 +197,16 @@
       display: none;
     }
 
+    .experience-item {
+      font-weight: 300;
+    }
+
+    .experience-item-selected {
+      padding-bottom: 5px;
+      border-bottom: 3px solid var(--accent);
+      font-weight: 500;
+    }
+
     .experience-selector ul {
       display: flex;
       flex-direction: row;

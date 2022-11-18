@@ -82,11 +82,17 @@ export function Home() {
             <div className="experience-selector">
               <ul>
                 <li 
-                className={activeTab === "OpenClassrooms" ? "experience-item test" : "experience-item"} 
+                className={activeTab === "OpenClassrooms" ? "experience-item experience-item-selected" : "experience-item"} 
                 onClick={changeSelector}>OpenClassrooms</li>
-                <li className="experience-item" onClick={changeSelector}>Drivy</li>
-                <li className="experience-item" onClick={changeSelector}>Schibsted</li>
-                <li className="experience-item" onClick={changeSelector}>Leboncoin</li>
+                <li 
+                className={activeTab === "Drivy" ? "experience-item experience-item-selected" : "experience-item"} 
+                onClick={changeSelector}>Drivy</li>
+                <li 
+                className={activeTab === "Schibsted" ? "experience-item experience-item-selected" : "experience-item"} 
+                onClick={changeSelector}>Schibsted</li>
+                <li 
+                className={activeTab === "Leboncoin" ? "experience-item experience-item-selected" : "experience-item"} 
+                onClick={changeSelector}>Leboncoin</li>
               </ul>
             </div>
             <span className={arrowClass}>↠</span>
