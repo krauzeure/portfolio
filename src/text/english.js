@@ -38,7 +38,7 @@ export const englishCopy = {
         "oc2": "Knowledge Management Specialist",
         "oc2date": "oct 2022 - present",
         "oc2item1": "Managing the knowledge for the entire Ops team",
-        "oc2item2": "Creating guidelines and maintening our Help Centers",
+        "oc2item2": "Creating guidelines and maintaining our Help Centers",
         "oc2item3": "Tracking our success metrics (content quality, impact, ...)",
         "oc1": "Mentor & Coach Support Manager",
         "oc1date": "july 2019 - sep 2022",
