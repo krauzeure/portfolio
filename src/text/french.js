@@ -39,7 +39,7 @@ export const frenchCopy = {
         "oc2date": "oct 2022 - aujourd'hui",
         "oc2item1": "Gestion de la connaissance pour toute l'équipe Opérations",
         "oc2item2": "Définition des guidelines et maintenance des Centre d'Aide",
-        "oc2item3": "Suivi des indicateurs (qualité, impact, ...)",
+        "oc2item3": "Définition et suivi des indicateurs (qualité, impact, ...)",
         "oc1": "Mentor & Coach Support Manager",
         "oc1date": "juil 2019 - sep 2022",
         "oc1item1": "Mise en place des process du Support mentorat et coaching",
