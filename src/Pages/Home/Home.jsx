@@ -4,6 +4,8 @@ import Cyrielle from './cyrielle.png'
 import P5 from './P5.png'
 import P7 from './P7.jpeg'
 import P3 from './P3.jpg'
+import CV from './CV - Cyrielle Chasles.pdf'
+import Resume from './Resume - Cyrielle Chasles.pdf'
 
 import { useContext, useState } from 'react';
 
@@ -152,7 +154,7 @@ export function Home() {
           </div>
           
                 <div className="resume-download button">
-                <a href="/">
+                <a href={langValue.lang ? CV : Resume} download="Cyrielle Chasles">
                   {langValue.lang ? frenchCopy.resume.download : englishCopy.resume.download} 
                 </a>
                 </div>
