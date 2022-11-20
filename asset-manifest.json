@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/www/static/css/main.a9a40b61.css",
-    "main.js": "/www/static/js/main.1416dffe.js",
-    "static/media/P5.png": "/www/static/media/P5.d5b89bcb914b6ca1d437.png",
-    "static/media/P3.jpg": "/www/static/media/P3.4e7cf3326cf48aa765f6.jpg",
-    "static/media/P7.jpeg": "/www/static/media/P7.ad70811a68c955001d39.jpeg",
-    "static/media/cyrielle.png": "/www/static/media/cyrielle.62fd9d8f4316fbec17d8.png",
-    "static/media/CV - Cyrielle Chasles.pdf": "/www/static/media/CV - Cyrielle Chasles.fa7473936a32a4c6aa1e.pdf",
-    "static/media/Resume - Cyrielle Chasles.pdf": "/www/static/media/Resume - Cyrielle Chasles.fd2141c0e0f83ed3d98c.pdf",
-    "static/media/linkedin.svg": "/www/static/media/linkedin.21869f3cf0f5d8be1a99b800c10794df.svg",
-    "static/media/github.svg": "/www/static/media/github.e5ff90285a6d40c9b8de9f61e7e782e2.svg",
-    "index.html": "/www/index.html",
-    "main.a9a40b61.css.map": "/www/static/css/main.a9a40b61.css.map",
-    "main.1416dffe.js.map": "/www/static/js/main.1416dffe.js.map"
+    "main.css": "/cluster031.hosting.ovh.net/www/static/css/main.a9a40b61.css",
+    "main.js": "/cluster031.hosting.ovh.net/www/static/js/main.41d73029.js",
+    "static/media/P5.png": "/cluster031.hosting.ovh.net/www/static/media/P5.d5b89bcb914b6ca1d437.png",
+    "static/media/P3.jpg": "/cluster031.hosting.ovh.net/www/static/media/P3.4e7cf3326cf48aa765f6.jpg",
+    "static/media/P7.jpeg": "/cluster031.hosting.ovh.net/www/static/media/P7.ad70811a68c955001d39.jpeg",
+    "static/media/cyrielle.png": "/cluster031.hosting.ovh.net/www/static/media/cyrielle.62fd9d8f4316fbec17d8.png",
+    "static/media/CV - Cyrielle Chasles.pdf": "/cluster031.hosting.ovh.net/www/static/media/CV - Cyrielle Chasles.fa7473936a32a4c6aa1e.pdf",
+    "static/media/Resume - Cyrielle Chasles.pdf": "/cluster031.hosting.ovh.net/www/static/media/Resume - Cyrielle Chasles.fd2141c0e0f83ed3d98c.pdf",
+    "static/media/linkedin.svg": "/cluster031.hosting.ovh.net/www/static/media/linkedin.21869f3cf0f5d8be1a99b800c10794df.svg",
+    "static/media/github.svg": "/cluster031.hosting.ovh.net/www/static/media/github.e5ff90285a6d40c9b8de9f61e7e782e2.svg",
+    "index.html": "/cluster031.hosting.ovh.net/www/index.html",
+    "main.a9a40b61.css.map": "/cluster031.hosting.ovh.net/www/static/css/main.a9a40b61.css.map",
+    "main.41d73029.js.map": "/cluster031.hosting.ovh.net/www/static/js/main.41d73029.js.map"
   },
   "entrypoints": [
     "static/css/main.a9a40b61.css",
-    "static/js/main.1416dffe.js"
+    "static/js/main.41d73029.js"
   ]
 }
