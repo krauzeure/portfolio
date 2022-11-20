@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9a40b61.css",
-    "main.js": "/static/js/main.696ad7d2.js",
-    "static/media/P5.png": "/static/media/P5.d5b89bcb914b6ca1d437.png",
-    "static/media/P3.jpg": "/static/media/P3.4e7cf3326cf48aa765f6.jpg",
-    "static/media/P7.jpeg": "/static/media/P7.ad70811a68c955001d39.jpeg",
-    "static/media/cyrielle.png": "/static/media/cyrielle.62fd9d8f4316fbec17d8.png",
-    "static/media/CV - Cyrielle Chasles.pdf": "/static/media/CV - Cyrielle Chasles.fa7473936a32a4c6aa1e.pdf",
-    "static/media/Resume - Cyrielle Chasles.pdf": "/static/media/Resume - Cyrielle Chasles.fd2141c0e0f83ed3d98c.pdf",
-    "static/media/linkedin.svg": "/static/media/linkedin.21869f3cf0f5d8be1a99b800c10794df.svg",
-    "static/media/github.svg": "/static/media/github.e5ff90285a6d40c9b8de9f61e7e782e2.svg",
-    "index.html": "/index.html",
-    "main.a9a40b61.css.map": "/static/css/main.a9a40b61.css.map",
-    "main.696ad7d2.js.map": "/static/js/main.696ad7d2.js.map"
+    "main.css": "/www/static/css/main.a9a40b61.css",
+    "main.js": "/www/static/js/main.1416dffe.js",
+    "static/media/P5.png": "/www/static/media/P5.d5b89bcb914b6ca1d437.png",
+    "static/media/P3.jpg": "/www/static/media/P3.4e7cf3326cf48aa765f6.jpg",
+    "static/media/P7.jpeg": "/www/static/media/P7.ad70811a68c955001d39.jpeg",
+    "static/media/cyrielle.png": "/www/static/media/cyrielle.62fd9d8f4316fbec17d8.png",
+    "static/media/CV - Cyrielle Chasles.pdf": "/www/static/media/CV - Cyrielle Chasles.fa7473936a32a4c6aa1e.pdf",
+    "static/media/Resume - Cyrielle Chasles.pdf": "/www/static/media/Resume - Cyrielle Chasles.fd2141c0e0f83ed3d98c.pdf",
+    "static/media/linkedin.svg": "/www/static/media/linkedin.21869f3cf0f5d8be1a99b800c10794df.svg",
+    "static/media/github.svg": "/www/static/media/github.e5ff90285a6d40c9b8de9f61e7e782e2.svg",
+    "index.html": "/www/index.html",
+    "main.a9a40b61.css.map": "/www/static/css/main.a9a40b61.css.map",
+    "main.1416dffe.js.map": "/www/static/js/main.1416dffe.js.map"
   },
   "entrypoints": [
     "static/css/main.a9a40b61.css",
-    "static/js/main.696ad7d2.js"
+    "static/js/main.1416dffe.js"
   ]
 }
