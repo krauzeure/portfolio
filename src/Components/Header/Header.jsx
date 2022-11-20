@@ -28,7 +28,6 @@ export function Header() {
     const updateMenu = () => {
         setMenuState(!menuState);
     }
-    console.log(menuState)
 
   return (
     <header>

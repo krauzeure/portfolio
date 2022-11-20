@@ -1,7 +1,7 @@
 import './Home.css'
 
 import Cyrielle from './cyrielle.png'
-import P5 from './P5.png'
+import P5 from './P5.webp'
 import P7 from './P7.jpeg'
 import P3 from './P3.jpg'
 import CV from './CV - Cyrielle Chasles.pdf'
