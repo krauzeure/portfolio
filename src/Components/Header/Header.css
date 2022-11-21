@@ -119,18 +119,24 @@ img.profile-photo {
     .nav-anchors, .nav-selectors {
       margin-right: 0;
       flex-direction: column;
-      width: 250px;
+      width: 100%;
       padding-right: 5vw;
       background-color: var(--background);
       text-align: right;
     }
 
+    .nav-links {
+      width: 100%;
+      font-size: 18px;
+    }
+
     .nav-anchors {
-      padding: 30px 5vw 0 0;
+      padding: 0 5vw 0 0;
     }
 
     .nav-selectors {
       padding-bottom: 30px;
+      font-size: 18px;
     }
 
     .nav-selector {

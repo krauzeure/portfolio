@@ -5,7 +5,7 @@ import './Header.css'
 import { frenchCopy } from '../../text/french'
 import { englishCopy } from '../../text/english'
 
-import { useContext, useState } from 'react'
+import { useContext, useState, useRef, useEffect } from 'react'
 import ThemeContext from '../../ThemeContext'
 import LangContext from '../../LangContext'
 
@@ -29,8 +29,31 @@ export function Header() {
         setMenuState(!menuState);
     }
 
+    const ref = useRef();
+
+    const useOutsideClick = (ref, callback) => {
+        const handleClick = e => {
+          if (ref.current && !ref.current.contains(e.target)) {
+            callback();
+          }
+        };
+      
+        useEffect(() => {
+          document.addEventListener("click", handleClick);
+      
+          return () => {
+            document.removeEventListener("click", handleClick);
+          };
+        });
+      };
+
+      useOutsideClick(ref, () => {
+        setMenuState(false);
+      });
+
+
   return (
-    <header>
+    <header ref={ref}>
         <nav className="header-nav-container">
             <a href="/"><img 
             src={contextValue.theme ? Logo : LogoDark}
@@ -38,7 +61,7 @@ export function Header() {
             className="profile-photo"/></a>
             <div className={menuState ? "nav-all-links nav-burger-open" : "nav-all-links"}>
                 <div className="nav-links">
-                    <ul className="nav-anchors">
+                    <ul className="nav-anchors" onClick={updateMenu}>
                         <a href="/#projects">
                             <li className="nav-item fr">{langValue.lang ? frenchCopy.header.projects : englishCopy.header.projects}</li>
                         </a>
@@ -53,7 +76,7 @@ export function Header() {
                         </a>
                     </ul>
                 </div>
-                <div className="nav-selectors">
+                <div className="nav-selectors" onClick={updateMenu}>
                     <div className="language-select nav-selector" onClick={toggleLang}>
                         {langValue.lang ? frenchCopy.header.lang : englishCopy.header.lang}
                     </div>
