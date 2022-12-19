@@ -4,6 +4,7 @@ import Cyrielle from './cyrielle.png'
 import P5 from './P5.webp'
 import P7 from './P7.jpeg'
 import P3 from './P3.jpg'
+import Airpeger from './airpeger.png'
 import CV from './CV - Cyrielle Chasles.pdf'
 import Resume from './Resume - Cyrielle Chasles.pdf'
 
@@ -67,13 +68,23 @@ export function Home() {
             />
 
             <Project 
+            title={"Airpéger"} 
+            text={langValue.lang ? frenchCopy.projects.airpeger : englishCopy.projects.airpeger} 
+            img={Airpeger} 
+            tags={["React", "Node.js", "Vercel"]} 
+            link={"https://airpeger.fr/"}
+            />
+
+            <Project 
             title={"Ohmyfood!"} 
             text={langValue.lang ? frenchCopy.projects.ohmyfood : englishCopy.projects.ohmyfood} 
+            reversed={true} 
             img={P3} 
             tags={["SASS", "HTML", "Animation"]} 
             link={"https://krauzeure.github.io/dwP3/"}
             github={"https://github.com/krauzeure/dwP3"}
             />
+
         </section>
 
         <section className="experience main-section" id="experience">
