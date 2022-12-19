@@ -17,7 +17,7 @@ export const englishCopy = {
         "about6": "I'm passionate about ",
         "about7": "problem solving", 
         "about8": " and improving the user experience 🙌",
-        "contact": "If you’d like to discuss a project or just have a chat, feel free to reach out!",
+        "contact": "If you’d like to discuss a project, feel free to reach out!",
         "contactcta": "Contact"
     },
     "mainheader": {

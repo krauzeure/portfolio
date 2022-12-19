@@ -17,7 +17,7 @@ export const frenchCopy = {
         "about6": "J'aime ",
         "about7": "résoudre des problèmes", 
         "about8": " et améliorer l'expérience utilisateur 🙌",
-        "contact": "Si vous voulez parler d'un projet, ou juste discuter, n'hésitez pas à me contacter !",
+        "contact": "Si vous voulez parler d'un projet, n'hésitez pas à me contacter !",
         "contactcta": "Me contacter"
     },
     "mainheader": {
