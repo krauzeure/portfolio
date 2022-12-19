@@ -27,9 +27,9 @@ export const englishCopy = {
         "contact": "Contact"
     },
     "projects": {
-        "kanap": "Integrating the Kanap website with Javascript. This project involved getting the data from the API, creating a functioning cart with the local storage, and sending the user's order to the server.",
-        "kasa": "Integrating the Kasa website with React. For this project, I used states, componants and I uploaded the website on Github pages.",
-        "ohmyfood": "Integrating the Ohmyfood! website in HTML and with SASS. For this project, I used CSS animations (transitions and keyframes)."
+        "kanap": "Integrating the Kanap website with Javascript. Getting the data from the API, creating a functioning cart with the local storage, and sending the user's order to the server.",
+        "kasa": "Integrating the Kasa website with React. Using states, componants and uploading the website on Github pages.",
+        "ohmyfood": "Integrating the Ohmyfood! website in HTML and with SASS. Using CSS animations (transitions and keyframes)."
     },
     "resume": {
         "experience": "Experience",

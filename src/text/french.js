@@ -27,9 +27,9 @@ export const frenchCopy = {
         "contact": "Contact"
     },
     "projects": {
-        "kanap": "Intégration du site Kanap avec Javascript. Pour ce projet, j'ai récupéré des produits via une API, créé un panier via le local storage, et envoyé de la commande au serveur.",
-        "kasa": "Intégration du site Kasa en React. Pour ce projet, j'ai utilisé les états, les composants, et mis en ligne le site via Github pages.",
-        "ohmyfood": "Intégration du site Ohmyfood! en HTML et avec SASS. Sur ce projet, j'ai utilisé des animations CSS (transition et keyframes)."
+        "kanap": "Intégration du site Kanap avec Javascript. Récupération des produits avec une API, création d'un panier via le local storage, et envoi de la commande au serveur.",
+        "kasa": "Intégration du site Kasa en React. Utilisations des states React, des composants, et mise en ligne du site via Github pages.",
+        "ohmyfood": "Intégration du site Ohmyfood! en HTML et avec SASS. Utilisation des animations CSS (transition et keyframes)."
     },
     "resume": {
         "experience": "Expérience",
