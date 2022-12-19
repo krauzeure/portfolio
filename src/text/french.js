@@ -13,7 +13,7 @@ export const frenchCopy = {
         "about2": ", je travaille dans le monde du web depuis 10 ans. J'ai travaillé au Support Client pendant plusieurs années tout en apprenant les bases du développement et de l'UX dans mon temps libre.",
         "about3": "Aujourd'hui, je sors d'une ",
         "about4": "formation de Développeur Web",
-        "about5": " et je cherche des projets de développement.",
+        "about5": " et je cherche des projets à développer.",
         "about6": "J'aime ",
         "about7": "résoudre des problèmes", 
         "about8": " et améliorer l'expérience utilisateur 🙌",
