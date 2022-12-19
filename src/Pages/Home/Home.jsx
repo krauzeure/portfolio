@@ -153,11 +153,11 @@ export function Home() {
             </div>
           </div>
           
-                <div className="resume-download button">
+                <button className="resume-download button">
                 <a href={langValue.lang ? CV : Resume} download="Cyrielle Chasles">
                   {langValue.lang ? frenchCopy.resume.download : englishCopy.resume.download} 
                 </a>
-                </div>
+                </button>
               
         </section>
 
@@ -194,11 +194,11 @@ export function Home() {
           <div className="section-top-border"></div>
             <p>{langValue.lang ? frenchCopy.home.contact : englishCopy.home.contact}</p>
             
-                <div className="contact-cta button">
+                <button className="contact-cta button">
                 <a href="mailto:cyrielle.chasles@gmail.com">
                   {langValue.lang ? frenchCopy.home.contactcta : englishCopy.home.contactcta} 
                 </a>
-                </div>
+                </button>
             
         </section>
     </>

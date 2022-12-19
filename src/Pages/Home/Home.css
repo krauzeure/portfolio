@@ -149,6 +149,8 @@
 
   .contact-cta {
     font-family: 'Playfair Display', serif;
+    background-color: transparent;
+    font-size: 16px;
     color: var(--accent);
     width: fit-content;
     display: flex;
@@ -157,6 +159,7 @@
     text-decoration: none;
     border: 1px solid var(--accent);
     margin-top: 40px;
+    cursor: pointer;
   }
 
   .button:hover {
@@ -180,6 +183,12 @@
   .button a {
     font-family: 'Playfair Display', serif;
     color: var(--accent);
+  }
+
+  .resume-download {
+    background-color: transparent;
+    font-size: 16px;
+    width: fit-content;
   }
 
   @media screen and (max-width: 850px) {
