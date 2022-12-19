@@ -23,7 +23,9 @@ export function Project(props) {
               {props.tags.map((item, index) => {
                 return <li key={`${props.title} - ${index}`} className="project-tag">{item}</li>
               })}
-              {props.link ? <a href={props.link} target="_blank" rel="noreferrer"><span className="material-symbols-outlined">open_in_new</span></a> : ""}
+              {props.link ? <a href={props.link} target="_blank" rel="noreferrer"><span 
+              className={contextValue.theme ? "material-symbols-outlined" : "material-symbols-outlined material-symbols-outlined-inverted"}
+              >open_in_new</span></a> : ""}
               {props.github ? <a href={props.github}><img 
               className={contextValue.theme ? "project-github" : "project-github project-github-inverted"}
               src={Github} 

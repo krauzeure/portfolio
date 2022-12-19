@@ -65,8 +65,16 @@ img.project-github-inverted {
     filter: invert(100%);
 }
 
+img.project-github:hover {
+    filter: invert(31%) sepia(97%) saturate(535%) hue-rotate(79deg) brightness(94%) contrast(105%);
+}
+
 img.project-github-inverted:hover {
-    filter: invert(100%);
+    filter: invert(60%) sepia(12%) saturate(2049%) hue-rotate(83deg) brightness(102%) contrast(88%);
+}
+
+.material-symbols-outlined:hover {
+    color: var(--accent);
 }
 
 @media screen and (max-width: 850px) {
