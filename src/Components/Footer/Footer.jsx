@@ -2,6 +2,6 @@ import './Footer.css'
 
 export function Footer() {
   return (
-    <footer>© Cyrielle Chasles, 2022</footer>
+    <footer><p>© Cyrielle Chasles, 2022</p></footer>
   )
 }

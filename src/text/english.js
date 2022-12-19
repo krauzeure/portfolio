@@ -7,7 +7,7 @@ export const englishCopy = {
     },
     "home": {
         "heading": "Hey there, I'm Cyrielle",
-        "subheading": "Front End Developer, I like building experiences for the web.",
+        "subheading": "Front End Developer, I like building experiences for the web",
         "desc": "Just graduated from the Web Developer training program on OpenClassrooms, I'm looking for my first experience as a Front End Developer.",
         "about1": "Tech enthusiast",
         "about2": ", I've been working at tech start ups for 10 years. I worked in Client Support for a few years while teaching myself UX and Developement basics.",

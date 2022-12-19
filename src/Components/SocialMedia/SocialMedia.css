@@ -26,9 +26,9 @@
 
     .social-media-container {
       flex-direction: row;
-      position: absolute;
-      bottom: 115px;
-      left: 40%;
+      position: static;
+      width: 100%;
+      justify-content: center;
     }
 
   }
