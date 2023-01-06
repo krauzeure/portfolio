@@ -10,6 +10,10 @@ import { SocialMedia } from './Components/SocialMedia/SocialMedia';
 import { Footer } from './Components/Footer/Footer';
 import { Home } from '../src/Pages/Home/Home'
 
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-EH82F3KVGE"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+
 export function App() {
 
     const [theme, setTheme] = useState(true);
