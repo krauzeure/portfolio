@@ -21,6 +21,11 @@ export function Header() {
 
     const toggleLang = () => {
         langValue.updateLang(!langValue.lang);
+        if(langValue.lang === true) {
+            document.documentElement.setAttribute('lang', 'EN');
+        } else {
+            document.documentElement.setAttribute('lang', 'FR');
+        }
     }
 
     const [menuState, setMenuState] = useState(false);
