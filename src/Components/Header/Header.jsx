@@ -23,8 +23,10 @@ export function Header() {
         langValue.updateLang(!langValue.lang);
         if(langValue.lang === true) {
             document.documentElement.setAttribute('lang', 'EN');
+            document.getElementsByTagName('meta')["description"].content = "Portfolio Cyrielle Chasles - Front End Developer, I like building experiences for the web. Check out my projects on my portfolio!";
         } else {
             document.documentElement.setAttribute('lang', 'FR');
+            document.getElementsByTagName('meta')["description"].content = "Portfolio Cyrielle Chasles - Développeuse Front-End, j'aime construire des expériences pour le web. Retrouvez mes différents projets sur mon portfolio !";
         }
     }
 
