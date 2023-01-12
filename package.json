@@ -23,7 +23,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "vitest --globals",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "vitest": "^0.27.0"
   }
 }
