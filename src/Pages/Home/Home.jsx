@@ -15,11 +15,16 @@ import { frenchCopy } from '../../text/french'
 import { englishCopy } from '../../text/english';
 import { Project } from '../../Components/Project/Project';
 import { ExperienceItem } from '../../Components/ExperienceItem/ExperienceItem';
+import { Popup } from '../../Components/Popup/Popup'
 
 export function Home() {
 
   const langValue = useContext(LangContext);
   const [activeTab, setActiveTab] = useState("OpenClassrooms");
+  const [activePopup, setActivePopup] = useState(false);
+  const [activeProject, setActiveProject] = useState();
+  console.log(activePopup)
+  console.log(activeProject)
 
   const changeSelector = (e) => {
     setActiveTab(e.target.textContent);
@@ -37,7 +42,10 @@ export function Home() {
   }
 
   return (
-    <>
+    <>{activePopup ? <Popup 
+      popupFunc={setActivePopup}
+      popupStatus={activePopup}
+      project={activeProject}/> : ""}
         <section className="main-description">
             <h1 
             className={langValue.lang ? "anim-typewriter-fr" : "anim-typewriter-en"}>
@@ -56,6 +64,11 @@ export function Home() {
             text={langValue.lang ? frenchCopy.projects.kanap : englishCopy.projects.kanap} 
             img={P5} 
             tags={["Javascript", "API", "localStorage"]}
+            moreInfo={true}
+            popupFunc={setActivePopup}
+            activePopup={activePopup}
+            showProject={setActiveProject}
+
             />
 
             <Project 
@@ -66,6 +79,10 @@ export function Home() {
             tags={["React", "CSS", "Github pages"]} 
             link={"https://krauzeure.github.io/dwP7"}
             github={"https://github.com/krauzeure/dwP7"}
+            moreInfo={true}
+            popupFunc={setActivePopup}
+            activePopup={activePopup}
+            showProject={setActiveProject}
             />
 
             <Project 
