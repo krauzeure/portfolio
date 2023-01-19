@@ -8,8 +8,8 @@ export function Project(props) {
 
   const contextValue = useContext(ThemeContext);
 
-  const updatePopup = () => {
-    props.popupFunc(!props.activePopup)
+  const openPopup = () => {
+    props.popupFunc(true)
     props.showProject(props.title)
   }
 
@@ -22,7 +22,7 @@ export function Project(props) {
           <div className="project-name-desc">
             <h3>{props.title}</h3>
             <p>{props.text}</p>
-            {props.moreInfo ? <div onClick={updatePopup}>Voir plus</div> : ""}
+            {props.moreInfo ? <div onClick={openPopup}>Voir plus</div> : ""}
           </div>
           <div className="project-tags">
             <ul>

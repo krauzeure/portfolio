@@ -68,7 +68,6 @@ export function Home() {
             popupFunc={setActivePopup}
             activePopup={activePopup}
             showProject={setActiveProject}
-
             />
 
             <Project 

@@ -33,9 +33,24 @@
   .popup-heading {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 15px 0;
   }
 
   .popup-heading h2 {
     color: var(--accent);
+  }
+
+  .popup-heading-stack {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .popup-heading-stack img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+    padding: 5px;
+    border: 0.5px solid var(--light-grey);
   }
