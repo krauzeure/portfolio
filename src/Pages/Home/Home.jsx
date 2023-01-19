@@ -41,7 +41,8 @@ export function Home() {
         <section className="main-description">
             <h1 
             className={langValue.lang ? "anim-typewriter-fr" : "anim-typewriter-en"}>
-              {langValue.lang ? frenchCopy.home.heading : englishCopy.home.heading}
+              {langValue.lang ? frenchCopy.home.heading : englishCopy.home.heading} 
+              <span>C</span><span>y</span><span>r</span><span>i</span><span>e</span><span>l</span><span>l</span><span>e</span>
             </h1>
             <p>{langValue.lang ? frenchCopy.home.subheading : englishCopy.home.subheading}</p>
             <p>{langValue.lang ? frenchCopy.home.desc : englishCopy.home.desc}</p>
@@ -182,16 +183,28 @@ export function Home() {
                   <u>{langValue.lang ? frenchCopy.home.about1 : englishCopy.home.about1}</u>
                   {langValue.lang ? frenchCopy.home.about2 : englishCopy.home.about2}
                 </p>
-                <p>
-                  {langValue.lang ? frenchCopy.home.about3 : englishCopy.home.about3}
-                  <u>{langValue.lang ? frenchCopy.home.about4 : englishCopy.home.about4}</u>
-                  {langValue.lang ? frenchCopy.home.about5 : englishCopy.home.about5}
-                </p>
-                <p>
-                  {langValue.lang ? frenchCopy.home.about6 : englishCopy.home.about6}
-                  <u>{langValue.lang ? frenchCopy.home.about7 : englishCopy.home.about7}</u>
-                  {langValue.lang ? frenchCopy.home.about8 : englishCopy.home.about8}
-                </p>
+
+                <div className="about-content-likes-block">
+                  <div className="about-content-like">
+                    <ul><p>{langValue.lang ? frenchCopy.home.about3 : englishCopy.home.about3}</p>
+                      <li>{langValue.lang ? frenchCopy.home.about4 : englishCopy.home.about4}</li>
+                      <li>{langValue.lang ? frenchCopy.home.about5 : englishCopy.home.about5}</li>
+                      <li>{langValue.lang ? frenchCopy.home.about6 : englishCopy.home.about6}</li>
+                      <li>{langValue.lang ? frenchCopy.home.about7 : englishCopy.home.about7}</li>
+                      <li>{langValue.lang ? frenchCopy.home.about8 : englishCopy.home.about8}</li>
+                    </ul>
+                  </div>
+
+                  <div className="about-content-like">
+                    <ul><p>{langValue.lang ? frenchCopy.home.about9 : englishCopy.home.about9}</p>
+                      <li>{langValue.lang ? frenchCopy.home.about10 : englishCopy.home.about10}</li>
+                      <li>{langValue.lang ? frenchCopy.home.about11 : englishCopy.home.about11}</li>
+                      <li>{langValue.lang ? frenchCopy.home.about12 : englishCopy.home.about12}</li>
+                      <li>{langValue.lang ? frenchCopy.home.about13 : englishCopy.home.about13}</li>
+                    </ul>
+                  </div>
+                </div>
+
             </div>
             <div className="about-photo">
               <div className="about-photo-background"></div>

@@ -20,6 +20,16 @@
   margin-top: 30px;
 }
 
+.main-description span {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.main-description span:hover {
+  animation: bounce 500ms ease-in-out;
+  color: #08a21e;
+}
+
 .main-about {
     margin: 40px auto;
     display: flex;
@@ -147,6 +157,35 @@
     margin: 15px 0;
   }
 
+  .about-content-likes-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 0 0;
+  }
+
+  .about-content-like {
+    position: relative;
+    padding: 30px 15px;
+    background-color: var(--background);
+    width: 45%;
+  }
+
+  .about-content-like ul {
+    list-style-type: none;
+  }
+
+  .about-content-like ul > p {
+    position: absolute;
+    top: -30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .about-content-like:nth-child(2) {
+    filter: grayscale(1);
+  }
+
   .contact-cta {
     font-family: 'Playfair Display', serif;
     background-color: transparent;
@@ -191,6 +230,12 @@
     width: fit-content;
   }
 
+  @keyframes bounce {
+    0% { transform: translateY(-5px); }
+    50% { transform: translateY(2px); }
+    100% { transform: translateY(0px); }
+  }
+
   @media screen and (max-width: 850px) {
 
     .about-photo-background {
@@ -229,6 +274,15 @@
 
     .experience-content {
       margin-left: 0;
+    }
+
+    .about-content-likes-block {
+      flex-direction: column;
+    }
+
+    .about-content-like {
+      width: 100%;
+      margin: 20px 0;
     }
 
   }
