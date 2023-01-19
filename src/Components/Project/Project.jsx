@@ -1,12 +1,16 @@
 import './Project.css'
 import Github from './github.svg'
 import ThemeContext from '../../ThemeContext';
+import LangContext from '../../LangContext';
+import { frenchCopy } from '../../text/french'
+import { englishCopy } from '../../text/english';
 
 import { useContext } from 'react';
 
 export function Project(props) {
 
   const contextValue = useContext(ThemeContext);
+  const langValue = useContext(LangContext);
 
   const openPopup = () => {
     props.popupFunc(true)
@@ -22,7 +26,7 @@ export function Project(props) {
           <div className="project-name-desc">
             <h3>{props.title}</h3>
             <p>{props.text}</p>
-            {props.moreInfo ? <div onClick={openPopup}>Voir plus</div> : ""}
+            {props.moreInfo ? <div onClick={openPopup} className="project-see-more">{langValue.lang ? frenchCopy.projects.seemore : englishCopy.projects.seemore} </div> : ""}
           </div>
           <div className="project-tags">
             <ul>

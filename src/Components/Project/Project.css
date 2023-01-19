@@ -8,6 +8,13 @@
     flex-direction: row-reverse;
 }
 
+.project-see-more {
+    cursor: pointer;
+    color: var(--accent);
+    margin-top: 20px;
+    font-weight: 500;
+}
+
 .project-text {
     background-color: var(--background);
     width: 70%;
