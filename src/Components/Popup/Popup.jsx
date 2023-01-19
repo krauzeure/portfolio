@@ -10,9 +10,9 @@ import CSS from './css.png'
 import Sass from './sass.png'
 import Kasa1 from './kasa1.gif'
 import Kasa2 from './kasa2.gif'
+import Ohmyfood1 from './ohmyfood1.gif'
+import Ohmyfood2 from './ohmyfood2.gif'
 import LangContext from '../../LangContext'
-import { frenchCopy } from '../../text/french'
-import { englishCopy } from '../../text/english';
 
 
 export function Popup(props) {
@@ -74,13 +74,14 @@ export function Popup(props) {
             projectDesc =
             <>
                 <p>J'ai travaillé sur le projet Ohmyfood! dans le cadre de ma formation. Pour ce projet, j'ai utilisé Sass et j'ai travaillé sur les animations CSS pour dynamiser la plateforme. Les maquettes ont été <u>intégrées en mobile first</u>, puis adaptées au format desktop.</p>
-                <div className="projects-details-images"><img src={Kasa1} alt="gif kasa"/><img src={Kasa2} alt="gif kasa"/></div>
+                <div className="projects-details-images"><img src={Ohmyfood1} alt="gif ohmyfood"/><img src={Ohmyfood2} alt="gif ohmyfood"/></div>
                 <div className="projects-details-main"><h3>Mon rôle sur ce projet</h3>
                     <ul>
                         <li>Intégration des maquettes en mobile first</li>
-                        <li>Utilisation des variables Sass</li>
+                        <li>Utilisation des <u>variables Sass</u></li>
                         <li><u>Création d'animations</u> sur les différentes pages (like, séléction de plat, chargement de la page)</li>
                         <li>Utilisation et personnalisation des icones fontawesome</li>
+                        <li>Mise en ligne de la plateforme via <u>Github Pages</u></li>
                     </ul>
                 </div>
             </>;
@@ -95,6 +96,7 @@ export function Popup(props) {
                         <li>Utilisation des variables Sass</li>
                         <li><u>Création d'animations</u> sur les différentes pages (like, séléction de plat, chargement de la page)</li>
                         <li>Utilisation et personnalisation des icones fontawesome</li>
+                        <li>Mise en ligne de la plateforme via Github Pages</li>
                     </ul>
                 </div>
             </>;
