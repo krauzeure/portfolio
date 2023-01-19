@@ -37,6 +37,13 @@ export const frenchCopy = {
         "ohmyfood": "Intégration du site Ohmyfood! en HTML et avec SASS. Utilisation des animations CSS (transition et keyframes).",
         "airpeger": "Création du site Airpéger. Intégration en React, création de la partie serveur avec Node.js (création de compte, stockage des informations utilisateur, ...), et mise en ligne du site (OVH / Vercel)."
     },
+    "projects_detail": {
+        "kanap1": "",
+        "kanap2": "",
+        "kasa1": "J'ai travaillé sur le projet Kasa dans le cadre de ma formation et il s'agit de mon premier projet en React. Ce projet m'a permis de découvrir la librairie, de créer des modules courants, et de",
+        "kasa2": "me baser sur les maquettes pour créer la meilleure expérience utilisateur",
+        "kasa3": "possible."
+    },
     "resume": {
         "experience": "Expérience",
         "training": "Formation",
