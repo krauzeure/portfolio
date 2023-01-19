@@ -90,6 +90,10 @@ export function Home() {
             img={Airpeger} 
             tags={["React", "Node.js", "Vercel"]} 
             link={"https://airpeger.fr/"}
+            moreInfo={true}
+            popupFunc={setActivePopup}
+            activePopup={activePopup}
+            showProject={setActiveProject}
             />
 
             <Project 
@@ -100,6 +104,10 @@ export function Home() {
             tags={["SASS", "HTML", "Animation"]} 
             link={"https://krauzeure.github.io/dwP3/"}
             github={"https://github.com/krauzeure/dwP3"}
+            moreInfo={true}
+            popupFunc={setActivePopup}
+            activePopup={activePopup}
+            showProject={setActiveProject}
             />
 
         </section>
