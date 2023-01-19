@@ -2,6 +2,7 @@ import React from 'react'
 
 import Github from './github.svg'
 import LinkedIn from './linkedin.svg'
+import Codepen from './codepen.svg'
 
 import './SocialMedia.css'
 
@@ -21,6 +22,10 @@ export function SocialMedia() {
         </a>
         <a href="https://www.linkedin.com/in/cyrielle-chasles/" target="_blank" rel="noreferrer">
           <img src={LinkedIn} alt="linkedin"
+          className={contextValue.theme ? "social-media-logo" : "social-media-logo social-media-logo-inverted"}/>
+        </a>
+        <a href="https://codepen.io/krauzeure" target="_blank" rel="noreferrer">
+          <img src={Codepen} alt="codepen"
           className={contextValue.theme ? "social-media-logo" : "social-media-logo social-media-logo-inverted"}/>
         </a>
     </div>
