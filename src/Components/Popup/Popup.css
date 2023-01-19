@@ -8,13 +8,14 @@
     z-index: 2;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .popup-box {
     width: 70%;
-    height: fit-content;
+    height: 90vh;
+    overflow: scroll;
     background-color: var(--background);
-    margin-top: 60px;
     padding: 35px;
     display: flex;
     flex-direction: column;
