@@ -82,3 +82,35 @@
     padding-left: 30px;
     margin: 0;
   }
+
+  @media screen and (max-width: 850px) {
+
+    .popup-box {
+      width: 90%;
+    }
+
+    .popup-heading {
+      flex-direction: column;
+    }
+
+    .popup-heading-stack {
+      margin-top: 20px;
+    }
+
+    .projects-details-images {
+      flex-direction: column;
+    }
+
+    .projects-details-images img {
+      width: 100%;
+    }
+
+    .projects-details-images img:nth-child(1) {
+      margin-bottom: 20px;
+    }
+
+    .popup-heading-stack img {
+      width: 40px;
+      height: 40px;
+    }
+  }
